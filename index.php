@@ -110,7 +110,7 @@
 
         <!-- IMAGE BACKGROUND -->
         <div class="section-background-image parallax" data-stellar-ratio="0.4">
-            <img src="img/fon_hero.png" alt="" style="opacity: 0.4;">
+            <img src="img/fon_hero2.jpg" alt="" style="opacity: 0.4;">
         </div>
 
         <!-- VIDEO BACKGROUND -->
@@ -184,7 +184,7 @@
                             <div class="form-content">
                                 <p>Запишитесь по одному из телефонов:
                                 <span class="center-block text-center">+7 916 300 1452</span>
-                                <span class="center-block text-center">+7 903 796 4485</span>
+                                <span class="center-block text-center">+7 964 584 8854</span>
                                 </p>
                                 <p> или оставьте Ваш контактный номер, мы перезвоним</p>
                             </div>
@@ -217,7 +217,70 @@
 
 </section>
 
+<section id="team" class="team-section  section-gray section">
 
+    <div class="container-fluid">
+
+        <h2 class="section-heading text-center">Наши щенки</h2>
+
+        <div class="team-row row">
+
+            <!-- TEAM MEMBER 1 -->
+            <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
+                <div class="team-member">
+                    <img class="team-member-picture" src="img/_DSC6093.jpg" alt="">
+                    <div class="team-member-text">
+                        <div class="team-member-position">отец: Графство Багиры Челленджер </div>
+                        <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TEAM MEMBER 2 -->
+            <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
+                <div class="team-member even">
+                    <img class="team-member-picture" src="img/_DSC6052.jpg" alt="">
+                    <div class="team-member-text">
+                        <div class="team-member-position">отец: Графство Багиры Челленджер </div>
+                        <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hidden-md hidden-lg clear"></div>
+
+            <!-- TEAM MEMBER 3 -->
+            <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
+                <div class="team-member">
+                    <img class="team-member-picture" src="img/_DSC6082.jpg" alt="">
+                    <div class="team-member-text">
+                        <div class="team-member-position">отец: Графство Багиры Челленджер </div>
+                        <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- TEAM MEMBER 4 -->
+            <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
+                <div class="team-member even">
+                    <img class="team-member-picture" src="img/_DSC6003.jpg" alt="">
+                    <div class="team-member-text">
+                        <div class="team-member-position">отец: Графство Багиры Челленджер </div>
+                        <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--            <div class="hidden-sm hidden-lg clear"></div>-->
+            <div class="hidden-md hidden-lg clear"></div>
+
+
+        </div>
+
+    </div>
+
+</section>
 
 <!-- DESCRIPTION
 ================================= -->
@@ -422,7 +485,7 @@
             <!-- NUMBERS - ITEM 1 -->
             <div class="col-md-4 col-sm-4">
                 <div class="numbers-item">
-                    <div class="numbers-item-counter"><span class="counter-up">358</span> <span class="fa fa-paw"></span></div>
+                    <div class="numbers-item-counter"><span class="counter-up">503</span> <span class="fa fa-paw"></span></div>
                     <div class="numbers-item-caption">Питомцев</div>
                 </div>
             </div>
@@ -430,7 +493,7 @@
             <!-- NUMBERS - ITEM 2 -->
             <div class="col-md-4 col-sm-4">
                 <div class="numbers-item">
-                    <div class="numbers-item-counter"><span class="counter-up">274</span> <span class="fa fa-bar-chart-o"></span></div>
+                    <div class="numbers-item-counter"><span class="counter-up">356</span> <span class="fa fa-bar-chart-o"></span></div>
                     <div class="numbers-item-caption">Выставки</div>
                 </div>
             </div>
@@ -438,7 +501,7 @@
             <!-- NUMBERS - ITEM 4 -->
             <div class="col-md-4 col-sm-4">
                 <div class="numbers-item">
-                    <div class="numbers-item-counter"><span class="counter-up">308</span> <span class="fa fa-trophy"></span></div>
+                    <div class="numbers-item-counter"><span class="counter-up">401</span> <span class="fa fa-trophy"></span></div>
                     <div class="numbers-item-caption">Кубков</div>
                 </div>
             </div>
@@ -524,82 +587,7 @@
 </section>
 
 
-<section id="team" class="team-section  section-gray section">
 
-    <div class="container-fluid">
-
-        <h2 class="section-heading text-center">Наши щенки</h2>
-
-        <div class="team-row row">
-
-            <!-- TEAM MEMBER 1 -->
-            <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
-                <div class="team-member">
-                    <img class="team-member-picture" src="img/puppy1.jpg" alt="">
-                    <div class="team-member-text">
-                        <h4 class="team-member-name">Помет "ш"</h4>
-                        <div class="team-member-position">дата рождения: 16 апреля 2015</div>
-                        <div class="team-member-position">отец: Зодиак Графство Багиры из Ватувара </div>
-                        <div class="team-member-position">мать: Графство Багиры Баядера</div>
-                        <p class="team-member-description"><i class="fa fa-mars"></i> кобелей -  8 <br>  <i class="fa fa-venus"></i> сук - 2  </br> Осталось - 3 рыжих, 2 бронзовых кобеля; 1 рыжая сука</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- TEAM MEMBER 2 -->
-            <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
-                <div class="team-member even">
-                    <img class="team-member-picture" src="img/puppy2.jpg" alt="">
-                    <div class="team-member-text">
-                        <h4 class="team-member-name">Помет "Э"</h4>
-                        <div class="team-member-position">дата рождения: 20 апреля 2015</div>
-                        <div class="team-member-position">отец: Зодиак Графство Багиры из Ватувара </div>
-                        <div class="team-member-position">мать: Графство Багиры Циана</div>
-                        <p class="team-member-description"><i class="fa fa-mars"></i> кобелей -  3 <br>  <i class="fa fa-venus"></i> сук - 2  </br> Осталось - 1 тигровый кобель; 1 тигровая, 1 рыжая суки</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hidden-md hidden-lg clear"></div>
-
-            <!-- TEAM MEMBER 3 -->
-            <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
-                <div class="team-member">
-                    <img class="team-member-picture" src="img/puppy3.jpg" alt="">
-                    <div class="team-member-text">
-                        <h4 class="team-member-name">Помет "Ю"</h4>
-                        <div class="team-member-position">дата рождения: 12 мая 2015</div>
-                        <div class="team-member-position">отец: Зодиак Графство Багиры из Ватувара </div>
-                        <div class="team-member-position">мать: Графство Багиры Артемида</div>
-                        <p class="team-member-description"><i class="fa fa-mars"></i> кобелей -  4 <br>  <i class="fa fa-venus"></i> сук - 2  </br> Осталось - 3 рыжих, 1 палевый кобель; 1 рыжая сука</p>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- TEAM MEMBER 4 -->
-            <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
-                <div class="team-member even">
-                    <img class="team-member-picture" src="img/puppy4.jpg" alt="">
-                    <div class="team-member-text">
-                        <h4 class="team-member-name">Помет "Я"</h4>
-                        <div class="team-member-position">дата рождения: 13 мая 2015</div>
-                        <div class="team-member-position">отец: Графство Багиры Борнео Джангл'з Кинг</div>
-                        <div class="team-member-position">мать: Графство Багиры Исти Глориа Дэй</div>
-                        <p class="team-member-description"><i class="fa fa-mars"></i> кобелей -  2 <br>  <i class="fa fa-venus"></i> сук - 2  </br> Осталось - 1 тигровый кобель</p>
-                    </div>
-                </div>
-            </div>
-
-            <!--            <div class="hidden-sm hidden-lg clear"></div>-->
-            <div class="hidden-md hidden-lg clear"></div>
-
-
-        </div>
-
-    </div>
-
-</section>
 
 <!-- PRICING SECTION
 ================================= -->
@@ -1091,11 +1079,11 @@
             <a href="https://www.facebook.com/BulmastifPitomnikGrafstvoBagiry" target="_blank"><span class="fa fa-facebook"></span></a>
             <a href="https://vk.com/gbagiry" target="_blank"><span class="fa fa-vk"></span></a>
 <!--            <a href="#" target="_blank"><span class="fa fa-twitter"></span></a>-->
-<!--            <a href="#" target="_blank"><span class="fa fa-instagram"></span></a>-->
+            <a href="https://www.instagram.com/grafstvobagiry/" target="_blank"><span class="fa fa-instagram"></span></a>
         </div>
 
         <div class="footer-copyright">
-            &copy; 2015 Щенки питомника Графство Багиры
+            &copy; <?php echo date("Y"); ?> Щенки питомника Графство Багиры
         </div>
 
     </div>
