@@ -13,7 +13,9 @@ function reply($response){
 }
 
 
-$received_data = json_decode($_POST, true);
+$json = file_get_contents('php://input');
+$received_data = json_decode($json, true);
+
 
 if (!in_array("email", $received_data) || empty($received_data))
     reply(jsonResponse("fail", "Email was not sent correctly"));

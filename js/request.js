@@ -12,6 +12,9 @@ $(document).ready(function() {
     $("#subscribe").on('click',function (e) {
         e.preventDefault();
         var email = $('#subscribe-form-email').val();
+
+        console.log(email);
+
         if(email.length > 0){
 
             $.ajax({
@@ -19,11 +22,9 @@ $(document).ready(function() {
                 dataType: 'json',
                 type: 'post',
                 contentType: 'application/json',
-                data: {"email": email },
-                // processData: false,
+                data: JSON.stringify({"email": email }),
                 success: function( data, textStatus, jQxhr ){
                     console.log(data);
-                    // $('').html( JSON.stringify( data ) );
 
                     alert(JSON.stringify( data ));
 
