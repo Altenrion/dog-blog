@@ -1,15 +1,22 @@
 <?php
 
-use Alt\PHPMailer;
-use Alt\Exception;
+//use Alt\PHPMailer;
+//use Alt\Exception;
 
-require 'Exception.php';
-require 'PHPMailer.php';
-require 'SMTP.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-//include_once "PHPMailer/src/PHPMailer.php";
-//include_once "PHPMailer/src/Exception.php";
-//include_once "PHPMailer/src/SMTP.php";
+//require '_Exception.php';
+//require '_PHPMailer.php';
+//require '_SMTP.php';
+
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
+//include_once "PHPMailer/src/_PHPMailer.php";
+//include_once "PHPMailer/src/_Exception.php";
+//include_once "PHPMailer/src/_SMTP.php";
 
 function jsonResponse($status, $message)
 {
