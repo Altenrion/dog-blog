@@ -34,7 +34,7 @@ $(document).ready(function() {
                     }
                     if(data.status == "fail"){
                         alertify.set('notifier','position', 'top-right');
-                        alertify.error(data.msg);
+                        alertify.warning(data.msg);
                     }
 
 
