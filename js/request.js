@@ -69,8 +69,8 @@ $(document).ready(function() {
                     console.log(data);
                     if(data.status == "success"){
 
-                        $('#visit-form-name').val(' ');
-                        $('#visit-form-phone').val(' ');
+                        $('#visit-form-name').val('');
+                        $('#visit-form-phone').val('');
 
                         alertify.set('notifier','position', 'top-right');
                         alertify.success(jsUcfirst(name) + ', ваша заявка на визит успешно оформлена');
