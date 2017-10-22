@@ -59,7 +59,7 @@ try {
 //    $mail->addCC('cc@example.com');
 //    $mail->addBCC('bcc@example.com');
     //Attachments
-    $mail->addAttachment('img/kennel_img.jpg');         // Add attachments
+//    $mail->addAttachment('img/kennel_img.jpg');         // Add attachments
 //    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
     //Content
