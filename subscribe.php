@@ -16,7 +16,7 @@ function reply($response){
 $json = file_get_contents('php://input');
 $received_data = json_decode($json, true);
 
-var_dump($_POST, $received_data, $json); die();
+//var_dump($_POST, $received_data, $json); die();
 
 
 if (!isset($received_data["email"]) || empty($received_data)){
@@ -24,6 +24,7 @@ if (!isset($received_data["email"]) || empty($received_data)){
     reply(jsonResponse("fail", "Email was not sent correctly"));
 }
 
+var_dump("checkpoint", $received_data, $json); die();
 
 $email = $received_data['email'];
 if (!filter_var($email, FILTER_VALIDATE_EMAIL))
