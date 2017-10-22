@@ -13,21 +13,41 @@ $(document).ready(function() {
         e.preventDefault();
         var email = $('#subscribe-form-email').val();
         if(email.length > 0){
-            $.post( "subscribe.php", { email: email })
-            .complete(function(msg) {
 
-                if(data == 'success'){
-                    $( "#action-form > div").slideUp("slow", function () {});//.hide(500);//fadeOut('slow');//
+            $.ajax({
+                url: 'subscribe.php',
+                dataType: 'json',
+                type: 'post',
+                contentType: 'application/json',
+                data: JSON.stringify( { "email": email } ),
+                // processData: false,
+                success: function( data, textStatus, jQxhr ){
+                    console.log(data);
+                    // $('').html( JSON.stringify( data ) );
+
+                    alert(JSON.stringify( data ));
+
+                    $("#action-form > div").slideUp("slow", function () {});
                     $(".thanks").removeClass('hidden').show(500);
-
+                },
+                error: function( jqXhr, textStatus, errorThrown ){
+                    console.log( textStatus, errorThrown );
                 }
-                alert("Завершение выполнения");
-            })
-            .success(function(msg) { alert("Успешное выполнение" + msg); })
-            .error(function(msg) { alert("Ошибка выполнения" + msg); })
+            });
 
+
+            // $.post( "subscribe.php", { email: email })
+            // .complete(function(msg) {
+
+                // if(msg == 'success'){
+                //
+                // }
+                // alert("Завершение выполнения");
+            // })
+            // .success(function(msg) { alert("Успешное выполнение" + msg); })
+            // .error(function(msg) { alert("Ошибка выполнения" + msg); })
+        //
         }
-
 
     });
 
