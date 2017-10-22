@@ -1,11 +1,11 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+use Alt\PHPMailer;
+use Alt\Exception;
 
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require 'Exception.php';
+require 'PHPMailer.php';
+require 'SMTP.php';
 
 //include_once "PHPMailer/src/PHPMailer.php";
 //include_once "PHPMailer/src/Exception.php";
