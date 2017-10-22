@@ -39,25 +39,24 @@ if (empty($link->insert_id))
     reply(jsonResponse('fail', "Saving subscription failed"));
 
 
-var_dump("checkpoint3", $received_data, $json); die();
 
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
-    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+    $mail->SMTPDebug = 0;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.timeweb.ru';  // Specify main and backup SMTP servers
+    $mail->Host = 'smtp.timeweb.ru';                      // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'admin@grafstvobagiry.ru';                 // SMTP username
     $mail->Password = 'Altenrion1991';                           // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+//    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 2525;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom('admin@grafstvobagiry.ru', 'Altenrion');
     $mail->addAddress('landerfeld@gmail.com', 'Nik Sabbuk');     // Add a recipient
-    $mail->addAddress('ellen@example.com');               // Name is optional
+//    $mail->addAddress('ellen@example.com');               // Name is optional
 //    $mail->addReplyTo('info@example.com', 'Information');
 //    $mail->addCC('cc@example.com');
 //    $mail->addBCC('bcc@example.com');
@@ -79,5 +78,8 @@ try {
 } catch (Exception $e) {
     reply(jsonResponse('error', "Sending message failed : " . $e . "___ " . $mail->ErrorInfo));
 }
+
+
 reply(jsonResponse('success', "Subscribtion + messaging successfully done!"));
 
+var_dump("checkpoint4", $received_data, $json); die();
