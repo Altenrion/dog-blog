@@ -1,22 +1,11 @@
 <?php
 
-//use Alt\PHPMailer;
-//use Alt\Exception;
+use Alt\PHPMailer;
+use Alt\Exception;
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-//require '_Exception.php';
-//require '_PHPMailer.php';
-//require '_SMTP.php';
-
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
-
-//include_once "PHPMailer/src/_PHPMailer.php";
-//include_once "PHPMailer/src/_Exception.php";
-//include_once "PHPMailer/src/_SMTP.php";
+require '_Exception.php';
+require '_PHPMailer.php';
+require '_SMTP.php';
 
 function jsonResponse($status, $message)
 {
@@ -30,9 +19,6 @@ function reply($response){
 
 $json = file_get_contents('php://input');
 $received_data = json_decode($json, true);
-
-//var_dump($_POST, $received_data, $json); die();
-
 
 if (!isset($received_data["email"]) || empty($received_data))
     reply(jsonResponse("fail", "Email was not sent correctly"));
