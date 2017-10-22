@@ -22,7 +22,9 @@ $(document).ready(function() {
                 dataType: 'json',
                 type: 'post',
                 contentType: 'application/json',
+                processData: false,
                 data: JSON.stringify({"email": email }),
+
                 success: function( data, textStatus, jQxhr ){
                     console.log(data);
 
