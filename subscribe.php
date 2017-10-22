@@ -16,7 +16,7 @@ function reply($response){
 $json = file_get_contents('php://input');
 $received_data = json_decode($json, true);
 
-var_dump($received_data); die();
+var_dump($_POST, $received_data, $json); die();
 
 
 if (!in_array("email", $received_data) || empty($received_data))
