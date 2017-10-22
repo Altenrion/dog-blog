@@ -13,14 +13,19 @@ $(document).ready(function() {
         e.preventDefault();
         var email = $('#subscribe-form-email').val();
         if(email.length > 0){
-            $.post( "subscribe.php", { email: email }).done(function ( data ) {
+            $.post( "subscribe.php", { email: email })
+            .complete(function(msg) {
+
                 if(data == 'success'){
                     $( "#action-form > div").slideUp("slow", function () {});//.hide(500);//fadeOut('slow');//
                     $(".thanks").removeClass('hidden').show(500);
 
                 }
-                //alert("Data Loaded: " + data );
-            });
+                alert("Завершение выполнения");
+            })
+            .success(function(msg) { alert("Успешное выполнение" + msg); })
+            .error(function(msg) { alert("Ошибка выполнения" + msg); })
+
         }
 
 

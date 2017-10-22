@@ -55,6 +55,8 @@ if (isset($_POST['email'])) {
     } catch (Exception $e) {
 //        echo 'Message could not be sent.';
 //        echo 'Mailer Error: ' . $mail->ErrorInfo;
-        throw new \Exception("Sending message failed");
+        throw new \Exception("Sending message failed ". $e. "___ ". $mail->ErrorInfo);
     }
+
+    echo 'success';
 }
