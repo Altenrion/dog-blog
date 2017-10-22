@@ -19,17 +19,15 @@ $received_data = json_decode($json, true);
 //var_dump($_POST, $received_data, $json); die();
 
 
-if (!isset($received_data["email"]) || empty($received_data)){
-
+if (!isset($received_data["email"]) || empty($received_data))
     reply(jsonResponse("fail", "Email was not sent correctly"));
-}
 
-var_dump("checkpoint", $received_data, $json); die();
 
 $email = $received_data['email'];
 if (!filter_var($email, FILTER_VALIDATE_EMAIL))
     reply(jsonResponse("fail", "Text '$email' is not a valid email"));
 
+var_dump("checkpoint2", $received_data, $json); die();
 
 $link = mysqli_connect("localhost", "altenrion_gbland", "Altenrion", "altenrion_gbland") or die("Error " . mysqli_error($link));
 $query = "INSERT INTO subscription (`email`) VALUES ('$email')" or die("Error.." . mysqli_error($link));
