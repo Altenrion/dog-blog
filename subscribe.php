@@ -69,7 +69,7 @@ try {
 
     $mail->Subject = 'Оформлена подписка на сайте';
     $mail->Body = file_get_contents('message_templates/notify.html');
-
+    $mail->CharSet = 'utf-8';
 
 //    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
