@@ -5,8 +5,8 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-//Load composer's autoloader
-require 'vendor/autoload.php';
+////Load composer's autoloader
+//require 'vendor/autoload.php';
 
 
 if (isset($_POST['email'])) {
@@ -16,9 +16,9 @@ if (isset($_POST['email'])) {
     $query = "INSERT INTO subscription (`email`) VALUES ('{$_POST['email']}')" or die("Error in the consult.." . mysqli_error($link));
 
     $result = $link->query($query);
-//    if (!empty($link->insert_id))
+    if (empty($link->insert_id))
+        throw new \Exception("Subscription Failed");
 //        echo 'success';
-
 
     $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
     try {
@@ -53,7 +53,8 @@ if (isset($_POST['email'])) {
         $mail->send();
         echo 'Message has been sent';
     } catch (Exception $e) {
-        echo 'Message could not be sent.';
-        echo 'Mailer Error: ' . $mail->ErrorInfo;
+//        echo 'Message could not be sent.';
+//        echo 'Mailer Error: ' . $mail->ErrorInfo;
+        throw new \Exception("Sending message failed");
     }
 }
