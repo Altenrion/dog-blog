@@ -74,7 +74,8 @@ try {
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    echo 'Message has been sent';
+
+    reply(jsonResponse('success', "messaging successfully done!"));
 } catch (Exception $e) {
     reply(jsonResponse('error', "Sending message failed : " . $e . "___ " . $mail->ErrorInfo));
 }
