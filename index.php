@@ -1104,6 +1104,7 @@
 <script src="js/script.js"></script>
 <script src="js/request.js"></script>
 <script src="js/alertifyjs/alertify.js"></script>
+<script src="js/jQuery-Mask-Plugin/src/jquery.mask.js"></script>
 
 <!-- DEMO SWITCHER
 ================================= -->

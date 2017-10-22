@@ -27,7 +27,7 @@ $(document).ready(function() {
                     console.log(data);
                     if(data.status == "success"){
 
-                        $("#subscribe-form-email").val(' ')
+                        $("#subscribe-form-email").val('');
 
                         alertify.set('notifier','position', 'top-right');
                         alertify.success('Ваша подписка успешно оформлена');
@@ -50,6 +50,9 @@ $(document).ready(function() {
     {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
+
+    $('#visit-form-phone').mask('(000) 000-0000');
+
 
     $("#send_request").on('click',function (e) {
         e.preventDefault();
