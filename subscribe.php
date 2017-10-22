@@ -19,7 +19,7 @@ $received_data = json_decode($json, true);
 //var_dump($_POST, $received_data, $json); die();
 
 
-if (!in_array("email", $received_data) || empty($received_data)){
+if (!isset($received_data["email"]) || empty($received_data)){
 
     var_dump($received_data); die();
     reply(jsonResponse("fail", "Email was not sent correctly"));
