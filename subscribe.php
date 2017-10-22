@@ -41,7 +41,7 @@ if (empty($link->insert_id))
 
 
 
-$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+$mail = new PHPMailer(false);                              // Passing `true` enables exceptions
 try {
     //Server settings
     $mail->SMTPDebug = 0;                                 // Enable verbose debug output
