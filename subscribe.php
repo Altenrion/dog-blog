@@ -70,3 +70,8 @@ if (isset($_POST['email'])) {
         'msg' => "Subscribtion + messaging successfully done!"
     ));die();
 }
+
+echo json_encode(array(
+    'status' => 'fail',
+    'msg' => "Subscribtion + messaging totally failed!"
+));die();
