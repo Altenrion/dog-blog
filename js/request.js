@@ -19,7 +19,7 @@ $(document).ready(function() {
                 dataType: 'json',
                 type: 'post',
                 contentType: 'application/json',
-                data: JSON.stringify( { "email": email } ),
+                data: {"email": email },
                 // processData: false,
                 success: function( data, textStatus, jQxhr ){
                     console.log(data);
