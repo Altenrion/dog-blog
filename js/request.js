@@ -46,6 +46,10 @@ $(document).ready(function() {
 
     });
 
+    function jsUcfirst(string)
+    {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
 
     $("#send_request").on('click',function (e) {
         e.preventDefault();
@@ -69,7 +73,7 @@ $(document).ready(function() {
                         $('#visit-form-phone').val(' ');
 
                         alertify.set('notifier','position', 'top-right');
-                        alertify.success('Ваша подписка успешно оформлена');
+                        alertify.success(jsUcfirst(name) + ', ваша заявка на визит успешно оформлена');
                     }
                     if(data.status == "fail"){
                         alertify.set('notifier','position', 'top-right');
