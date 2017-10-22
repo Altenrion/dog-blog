@@ -36,8 +36,6 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL))
     reply(jsonResponse("fail", "Text '$email' is not a valid email"));
 
 
-
-
 $link = mysqli_connect("localhost", "altenrion_gbland", "Altenrion", "altenrion_gbland") or die("Error " . mysqli_error($link));
 $query = "INSERT INTO subscription (`email`) VALUES ('$email')" or die("Error.." . mysqli_error($link));
 
@@ -48,8 +46,7 @@ if (empty($link->insert_id))
 
 
 
-
-$mail = new PHPMailer(false);                              // Passing `true` enables exceptions
+$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
     $mail->SMTPDebug = 0;                                 // Enable verbose debug output
@@ -83,12 +80,9 @@ try {
 
     $mail->send();
 
-    reply(jsonResponse('success', "messaging successfully done!"));
 } catch (Exception $e) {
     reply(jsonResponse('error', "Sending message failed : " . $e . "___ " . $mail->ErrorInfo));
 }
 
+reply(jsonResponse('success', "Ваша подписка успешно оформлена"));
 
-reply(jsonResponse('success', "Subscribtion + messaging successfully done!"));
-
-var_dump("checkpoint4", $received_data, $json); die();
