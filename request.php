@@ -55,13 +55,7 @@ try {
     //Recipients
     $mail->setFrom('admin@grafstvobagiry.ru', 'Admin');
     $mail->addAddress('landerfeld@gmail.com', 'Nik Sabbuk');     // Add a recipient
-//    $mail->addAddress('ellen@example.com');               // Name is optional
-//    $mail->addReplyTo('info@example.com', 'Information');
-//    $mail->addCC('cc@example.com');
-//    $mail->addBCC('bcc@example.com');
-    //Attachments
-//    $mail->addAttachment('img/kennel_img.jpg');         // Add attachments
-//    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+    $mail->addAddress('nekit_001@mail.ru');               // Name is optional
 
     //Content
     $mail->isHTML(true);
