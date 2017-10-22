@@ -16,12 +16,11 @@ function reply($response){
 $json = file_get_contents('php://input');
 $received_data = json_decode($json, true);
 
-//var_dump($_POST, $received_data, $json); die();
+var_dump($_POST, $received_data, $json); die();
 
 
 if (!isset($received_data["email"]) || empty($received_data)){
 
-    var_dump($received_data); die();
     reply(jsonResponse("fail", "Email was not sent correctly"));
 }
 
