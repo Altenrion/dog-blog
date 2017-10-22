@@ -54,8 +54,9 @@ try {
 
     //Recipients
     $mail->setFrom('admin@grafstvobagiry.ru', 'Admin');
-    $mail->addAddress('landerfeld@gmail.com', 'Nik Sabbuk');     // Add a recipient
-    $mail->addAddress('nekit_001@mail.ru');               // Name is optional
+    $mail->addAddress('landerfeld@gmail.com', 'Nikita');
+    $mail->addAddress('olgadogi@mail.ru', 'Olga');
+    $mail->addAddress('kuznetsova.yulia@bk.ru', 'Yulia');
 
     //Content
     $mail->isHTML(true);

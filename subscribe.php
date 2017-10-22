@@ -48,19 +48,13 @@ try {
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'admin@grafstvobagiry.ru';                 // SMTP username
     $mail->Password = 'Altenrion1991';                           // SMTP password
-//    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 2525;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom('admin@grafstvobagiry.ru', 'Admin');
-    $mail->addAddress('landerfeld@gmail.com', 'Nik Sabbuk');     // Add a recipient
-//    $mail->addAddress('ellen@example.com');               // Name is optional
-//    $mail->addReplyTo('info@example.com', 'Information');
-//    $mail->addCC('cc@example.com');
-//    $mail->addBCC('bcc@example.com');
-    //Attachments
-//    $mail->addAttachment('img/kennel_img.jpg');         // Add attachments
-//    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+    $mail->addAddress('landerfeld@gmail.com', 'Nikita');
+    $mail->addAddress('olgadogi@mail.ru', 'Olga');
+    $mail->addAddress('kuznetsova.yulia@bk.ru', 'Yulia');
 
     //Content
     $mail->isHTML(true);
