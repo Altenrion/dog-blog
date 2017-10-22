@@ -74,7 +74,7 @@ try {
     $mail->send();
 
 } catch (Exception $e) {
-    reply(jsonResponse('error', "Sending message failed : " . $e . "___ " . $mail->ErrorInfo));
+    reply(jsonResponse('fail', "Sending message failed : " . $e . "___ " . $mail->ErrorInfo));
 }
 
 reply(jsonResponse('success', "Ваша подписка успешно оформлена"));

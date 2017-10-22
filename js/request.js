@@ -13,8 +13,6 @@ $(document).ready(function() {
         e.preventDefault();
         var email = $('#subscribe-form-email').val();
 
-        console.log(email);
-
         if(email.length > 0){
 
             $.ajax({
@@ -27,29 +25,25 @@ $(document).ready(function() {
 
                 success: function( data, textStatus, jQxhr ){
                     console.log(data);
+                    if(data.status == "success"){
 
-                    alert(JSON.stringify( data ));
+                        $("#subscribe-form-email").val(' ')
 
-                    $("#action-form > div").slideUp("slow", function () {});
-                    $(".thanks").removeClass('hidden').show(500);
+                        alertify.set('notifier','position', 'top-right');
+                        alertify.success('Ваша подписка успешно оформлена');
+                    }
+                    if(data.status == "fail"){
+                        alertify.set('notifier','position', 'top-right');
+                        alertify.error(data.msg);
+                    }
+
+
+                    // $("#subscription-form").next().removeClass('hidden').show(500);
                 },
                 error: function( jqXhr, textStatus, errorThrown ){
                     console.log( textStatus, errorThrown );
                 }
             });
-
-
-            // $.post( "subscribe.php", { email: email })
-            // .complete(function(msg) {
-
-                // if(msg == 'success'){
-                //
-                // }
-                // alert("Завершение выполнения");
-            // })
-            // .success(function(msg) { alert("Успешное выполнение" + msg); })
-            // .error(function(msg) { alert("Ошибка выполнения" + msg); })
-        //
         }
 
     });
