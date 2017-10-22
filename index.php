@@ -192,10 +192,10 @@
 
                             <div id="action-form">
                             <div class="form-group">
-                                <input type="text" name="name" id="form-name" class="form-control" placeholder="Ваше имя" autocomplete="off">
+                                <input type="text" name="name" id="visit-form-name" class="form-control" placeholder="Ваше имя" autocomplete="off">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="phone" id="form-phone" class="form-control" placeholder="Ваш телефон" autocomplete="off">
+                                <input type="text" name="phone" id="visit-form-phone" class="form-control" placeholder="Ваш телефон" autocomplete="off">
                             </div>
 
                             <div class="form-group form-group-submit">
@@ -1049,9 +1049,6 @@
 														<button class="btn btn-primary btn-lg" data-loading-text="Action Button" id="subscribe">Отправить</button>
 													</span>
 
-                                </div>
-                                <div class="form-group thanks hidden form-content">
-                                    <h4 class="form-heading text-center">Спасибо</h4>
                                 </div>
                             </form>
 

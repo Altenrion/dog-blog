@@ -52,7 +52,7 @@ try {
     $mail->Port = 2525;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('admin@grafstvobagiry.ru', 'Altenrion');
+    $mail->setFrom('admin@grafstvobagiry.ru', 'Admin');
     $mail->addAddress('landerfeld@gmail.com', 'Nik Sabbuk');     // Add a recipient
 //    $mail->addAddress('ellen@example.com');               // Name is optional
 //    $mail->addReplyTo('info@example.com', 'Information');
@@ -67,9 +67,11 @@ try {
 
     //@todo: set the text info about the subscriber and edit the emails when finished
 
-    $mail->Subject = 'Here is the subject';
-    $mail->Body = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->Subject = 'Оформлена подписка на сайте';
+    $mail->Body = file_get_contents('message_templates/notify.html');
+
+
+//    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
 

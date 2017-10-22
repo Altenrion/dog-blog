@@ -37,8 +37,6 @@ $(document).ready(function() {
                         alertify.warning(data.msg);
                     }
 
-
-                    // $("#subscription-form").next().removeClass('hidden').show(500);
                 },
                 error: function( jqXhr, textStatus, errorThrown ){
                     console.log( textStatus, errorThrown );
@@ -51,17 +49,37 @@ $(document).ready(function() {
 
     $("#send_request").on('click',function (e) {
         e.preventDefault();
-        var name = $('#form-name').val();
-        var phone = $('#form-phone').val();
+        var name = $('#visit-form-name').val();
+        var phone = $('#visit-form-phone').val();
 
         if(name.length > 0 && phone.length >0){
-            $.post( "request.php", { name: name, phone: phone }).done(function ( data ) {
-                if(data == 'success'){
-                    $( "#subscription-form > div").slideUp("slow", function () {});//.hide(500);//fadeOut('slow');//
-                    $(".dog").removeClass('hidden').fadeIn(500);
+            $.ajax({
+                url: 'request.php',
+                dataType: 'json',
+                type: 'post',
+                contentType: 'application/json',
+                processData: false,
+                data: JSON.stringify({ name: name, phone: phone }),
 
+                success: function( data, textStatus, jQxhr ){
+                    console.log(data);
+                    if(data.status == "success"){
+
+                        $('#visit-form-name').val(' ');
+                        $('#visit-form-phone').val(' ');
+
+                        alertify.set('notifier','position', 'top-right');
+                        alertify.success('Ваша подписка успешно оформлена');
+                    }
+                    if(data.status == "fail"){
+                        alertify.set('notifier','position', 'top-right');
+                        alertify.warning(data.msg);
+                    }
+
+                },
+                error: function( jqXhr, textStatus, errorThrown ){
+                    console.log( textStatus, errorThrown );
                 }
-                //alert("Data Loaded: " + data );
             });
         }
     });
