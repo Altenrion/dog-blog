@@ -17,8 +17,10 @@ if (isset($_POST['email'])) {
 
     $result = $link->query($query);
     if (empty($link->insert_id))
-        throw new \Exception("Subscription Failed");
-//        echo 'success';
+        echo json_encode(array(
+            'status' => 'error',
+            'msg' => "Subscription Failed"
+        ));die();
 
     $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
     try {
@@ -55,8 +57,16 @@ if (isset($_POST['email'])) {
     } catch (Exception $e) {
 //        echo 'Message could not be sent.';
 //        echo 'Mailer Error: ' . $mail->ErrorInfo;
-        throw new \Exception("Sending message failed ". $e. "___ ". $mail->ErrorInfo);
+        echo json_encode(array(
+            'status' => 'error',
+            'msg' => "Sending message failed ". $e. "___ ". $mail->ErrorInfo
+        ));die();
+
+//        throw new \Exception("Sending message failed ". $e. "___ ". $mail->ErrorInfo);
     }
 
-    echo 'success';
+    echo json_encode(array(
+        'status' => 'success',
+        'msg' => "Subscribtion + messaging successfully done!"
+    ));die();
 }
