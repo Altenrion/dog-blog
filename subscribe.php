@@ -27,16 +27,19 @@ $email = $received_data['email'];
 if (!filter_var($email, FILTER_VALIDATE_EMAIL))
     reply(jsonResponse("fail", "Text '$email' is not a valid email"));
 
-var_dump("checkpoint2", $received_data, $json); die();
+
+
 
 $link = mysqli_connect("localhost", "altenrion_gbland", "Altenrion", "altenrion_gbland") or die("Error " . mysqli_error($link));
 $query = "INSERT INTO subscription (`email`) VALUES ('$email')" or die("Error.." . mysqli_error($link));
-
 
 $result = $link->query($query);
 
 if (empty($link->insert_id))
     reply(jsonResponse('fail', "Saving subscription failed"));
+
+
+var_dump("checkpoint3", $received_data, $json); die();
 
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
