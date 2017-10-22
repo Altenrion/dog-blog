@@ -3,6 +3,14 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
+//include_once "PHPMailer/src/PHPMailer.php";
+//include_once "PHPMailer/src/Exception.php";
+//include_once "PHPMailer/src/SMTP.php";
+
 function jsonResponse($status, $message)
 {
     return json_encode(array('status' => $status, 'msg' => $message));
