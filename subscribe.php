@@ -68,10 +68,21 @@ try {
     //@todo: set the text info about the subscriber and edit the emails when finished
 
     $mail->Subject = 'Оформлена подписка на сайте';
-    $mail->Body = file_get_contents('message_templates/notify.html');
-    $mail->CharSet = 'utf-8';
 
-//    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $bodyHtml = file_get_contents('message_templates/notify.html');
+
+    $patterns = array("{{HEADER}}","{{SUBHEADER}}","{{TEXT}}");
+    $data = array(
+        "Активность на сайте",
+        "Новый подписчик",
+        "На сайте grafstvobagiry.ru посетитель оставил подписку на новости. Его email : $email . Необходимо оправдать ожидания и запустить таки новости от питомника в эфир."
+
+    );
+
+    $messageBody = str_replace($patterns, $data, $bodyHtml);
+
+    $mail->Body = $messageBody;
+    $mail->CharSet = 'utf-8';
 
     $mail->send();
 
