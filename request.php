@@ -23,6 +23,10 @@ $received_data = json_decode($json, true);
 if (!isset($received_data["name"], $received_data["phone"]) || empty($received_data))
     reply(jsonResponse("fail", "Name or Phone were not sent correctly"));
 
+if (empty($received_data["name"]) || empty($received_data["phone"]))
+    reply(jsonResponse("fail", "Name or Phone were not sent correctly"));
+
+
 
 $name = $received_data['name'];
 $phone = $received_data['phone'];
