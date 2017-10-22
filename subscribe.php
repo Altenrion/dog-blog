@@ -8,16 +8,20 @@ function jsonResponse($status, $message)
     return json_encode(array('status' => $status, 'msg' => $message));
 }
 
+function reply($response){
+    echo $response; die();
+}
+
 
 $received_data = json_decode($_POST, true);
 
 if (!in_array("email", $received_data) || empty($received_data))
-    echo jsonResponse("fail", "Email was not sent correctly");
+    reply(jsonResponse("fail", "Email was not sent correctly"));
 
 
 $email = $received_data['email'];
 if (!filter_var($email, FILTER_VALIDATE_EMAIL))
-    echo jsonResponse("fail", "Text '$email' is not a valid email");
+    reply(jsonResponse("fail", "Text '$email' is not a valid email"));
 
 
 $link = mysqli_connect("localhost", "altenrion_gbland", "Altenrion", "altenrion_gbland") or die("Error " . mysqli_error($link));
@@ -27,7 +31,7 @@ $query = "INSERT INTO subscription (`email`) VALUES ('$email')" or die("Error.."
 $result = $link->query($query);
 
 if (empty($link->insert_id))
-    echo jsonResponse('fail', "Saving subscription failed");
+    reply(jsonResponse('fail', "Saving subscription failed"));
 
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
@@ -65,7 +69,7 @@ try {
     $mail->send();
     echo 'Message has been sent';
 } catch (Exception $e) {
-    echo jsonResponse('error', "Sending message failed : " . $e . "___ " . $mail->ErrorInfo);
+    reply(jsonResponse('error', "Sending message failed : " . $e . "___ " . $mail->ErrorInfo));
 }
-echo jsonResponse('success', "Subscribtion + messaging successfully done!");
+reply(jsonResponse('success', "Subscribtion + messaging successfully done!"));
 
