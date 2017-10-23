@@ -56,7 +56,7 @@ try {
     $mail->setFrom('admin@grafstvobagiry.ru', 'Admin');
     $mail->addAddress('landerfeld@gmail.com', 'Nikita');
     $mail->addAddress('olgadogi@mail.ru', 'Olga');
-    $mail->addAddress('kuznetsova.yulia@bk.ru', 'Yulia');
+    $mail->addAddress('7964485@gmail.com', 'Yulia');
 
     //Content
     $mail->isHTML(true);
