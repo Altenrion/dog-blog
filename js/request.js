@@ -51,7 +51,7 @@ $(document).ready(function() {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
 
-    $('#visit-form-phone').mask('(000) 000-0000');
+    $('#visit-form-phone').mask('+7(000) 000-0000');
 
 
     $("#send_request").on('click',function (e) {
