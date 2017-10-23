@@ -53,7 +53,7 @@ try {
     $mail->Port = 2525;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('admin@grafstvobagiry.ru', 'Admin');
+    $mail->setFrom('admin@grafstvobagiry.ru', 'Графство Багиры');
     $mail->addAddress('landerfeld@gmail.com', 'Nikita');
     $mail->addAddress('olgadogi@mail.ru', 'Olga');
     $mail->addAddress('7964485@gmail.com', 'Yulia');
