@@ -225,7 +225,7 @@ var map,
             zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.SMALL
             },
-            zoom: 6,
+            zoom: 5,
             disableDefaultUI: true
 
         }
