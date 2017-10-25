@@ -24,6 +24,8 @@
 
     <!-- CSS
     ================================= -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 
     <!-- GOOGLE FONTS -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
@@ -37,6 +39,7 @@
 
     <!-- SPECIFIC CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/map_scroller.css">
 
     <!-- COLORS -->
     <!-- <link id="color-css" rel="stylesheet" href="css/colors/pink.css"> -->
@@ -761,227 +764,27 @@
 
     <div class="container-fluid maps-row">
 
+
         <!-- MAPS IMAGE -->
         <div class="maps-image" data-animation="fadeIn">
-            <div id="gmap"></div>
+            <div class="map_keep">
+                <div id="map" class="map_keep__map"></div>
 
-            <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+                <div class="infinite-carousel"></div>
+            </div>
+
+<!--            <div id="gmap"></div>-->
+
+
+
+<!--            <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>-->
             <!-- GOGGLE MAPS CONFIGURATION -->
             <!-- ref: http://maplacejs.com/ -->
-            <script>
-                var paw = "img/paw2.png";
-                var gmap_options = {
-                    generate_controls : false,
-                    locations : [{
-                        lat : 56.13863363,
-                        lon : 37.49602139,
-                        animation : google.maps.Animation.DROP,
-                        html : "Питомник Графство Багиры",
-                        icon : "img/paw_main.png",
-                    },
-                    {
-                        lat : 58.493333,
-                        lon : 31.241667,
-                        animation : google.maps.Animation.DROP,
-                        html : "Новгород",
-                        icon : paw,
-                    },{
-                        lat : 55.755826,
-                        lon : 37.6173,
-                        animation : google.maps.Animation.DROP,
-                        html : "Москва",
-                        icon : paw,
-                    },{
-                        lat : 51.533333,
-                        lon : 46.016667,
-                        animation : google.maps.Animation.DROP,
-                        html : "Саратов",
-                        icon : paw,
-                    },{
-                        lat : 45.05,
-                        lon : 41.983333,
-                        animation : google.maps.Animation.DROP,
-                        html : "Ставрополь",
-                        icon : paw,
-                    },{
-                        lat : 50.4501,
-                        lon : 30.5234,
-                        animation : google.maps.Animation.DROP,
-                        html : "Киев",
-                        icon : paw,
-                    },{
-                        lat : 43.133333,
-                        lon : 131.9,
-                        animation : google.maps.Animation.DROP,
-                        html : "Владивосток",
-                        icon : paw,
-                    },{
-                        lat : 56.8389261,
-                        lon : 60.6057025,
-                        animation : google.maps.Animation.DROP,
-                        html : "Екатиринбург",
-                        icon : paw,
-                    },{
-                        lat : 59.9342802,
-                        lon : 30.3350986,
-                        animation : google.maps.Animation.DROP,
-                        html : "Санкт-Петербург",
-                        icon : paw,
-                    },{
-                        lat : 45.033333,
-                        lon : 38.966667,
-                        animation : google.maps.Animation.DROP,
-                        html : "Краснодар",
-                        icon : paw,
-                    },{
-                        lat : 52.3702157,
-                        lon : 4.8951679,
-                        animation : google.maps.Animation.DROP,
-                        html : "Амстердам",
-                        icon : paw,
-                    },{
-                        lat : 40.2731911,
-                        lon : -76.8867008,
-                        animation : google.maps.Animation.DROP,
-                        html : "Гаррисберг",
-                        icon : paw,
-                    },{
-                        lat : 56.9496487,
-                        lon : 24.1051864,
-                        animation : google.maps.Animation.DROP,
-                        html : "Рига",
-                        icon : paw,
-                    },{
-                        lat : 60.1733244,
-                        lon : 24.9410248,
-                        animation : google.maps.Animation.DROP,
-                        html : "Хельсинки",
-                        icon : paw,
-                    },
-                        {
-                        lat : 56.2965039,
-                        lon : 43.9360589,
-                        animation : google.maps.Animation.DROP,
-                        html : "Нижний Новгород",
-                        icon : paw,
-                    },{
-                        lat : 44.716667,
-                        lon : 37.75,
-                        animation : google.maps.Animation.DROP,
-                        html : "Новороссийск",
-                        icon : paw,
-                    },{
-                        lat : 68.9585244,
-                        lon : 33.0826598,
-                        animation : google.maps.Animation.DROP,
-                        html : "Мурманск",
-                        icon : paw,
-                    },{
-                        lat : 55.790278,
-                        lon : 49.134722,
-                        animation : google.maps.Animation.DROP,
-                        html : "Казань",
-                        icon : paw,
-                    },{
-                        lat : 55.1644419,
-                        lon : 61.4368431,
-                        animation : google.maps.Animation.DROP,
-                        html : "Челябинск",
-                        icon : paw,
-                    },{
-                        lat : 48.5027313,
-                        lon : 135.0662599,
-                        animation : google.maps.Animation.DROP,
-                        html : "Хабаровск",
-                        icon : paw,
-                    },{
-                        lat : 46.886967,
-                        lon : 142.71745,
-                        animation : google.maps.Animation.DROP,
-                        html : "Ю-Сахалинск",
-                        icon : paw,
-                    },{
-                        lat : 43.585278,
-                        lon : 39.720278,
-                        animation : google.maps.Animation.DROP,
-                        html : "Сочи",
-                        icon : paw,
-                    },{
-                        lat : 57.6260744,
-                        lon : 39.8844708,
-                        animation : google.maps.Animation.DROP,
-                        html : "Ярославль",
-                        icon : paw,
-                    },{
-                        lat : 54.7903112,
-                        lon : 32.0503663,
-                        animation : google.maps.Animation.DROP,
-                        html : "Смоленск",
-                        icon : paw,
-                    },{
-                        lat : 51.7091957,
-                        lon : 36.1562241,
-                        animation : google.maps.Animation.DROP,
-                        html : "Курск",
-                        icon : paw,
-                    },{
-                        lat : 61.666667,
-                        lon : 50.816667,
-                        animation : google.maps.Animation.DROP,
-                        html : "Сыктывкар",
-                        icon : paw,
-                    },{
-                        lat : 61.2559503,
-                        lon : 73.3845471,
-                        animation : google.maps.Animation.DROP,
-                        html : "Сургут",
-                        icon : paw,
-                    },{
-                        lat : 44.716667,
-                        lon : 37.75,
-                        animation : google.maps.Animation.DROP,
-                        html : "Новороссийск",
-                        icon : paw,
-                    },{
-                        lat : 47.233333,
-                        lon : 39.7,
-                        animation : google.maps.Animation.DROP,
-                        html : "Ростов на Дону",
-                        icon : paw,
-                    },{
-                        lat : 58.133333,
-                        lon : 52.666667,
-                        animation : google.maps.Animation.DROP,
-                        html : "Глазов",
-                        icon : paw,
-                    },
-//                        {
-//                        lat : 30.0444196,
-//                        lon : 31.2357116,
-//                        animation : google.maps.Animation.DROP,
-//                        html : "Каир",
-//                        icon : paw,
-//                    },
-//                        {
-//                        lat : 15.552727,
-//                        lon : 48.516388,
-//                        animation : google.maps.Animation.DROP,
-//                        html : "Йемен",
-//                        icon : paw,
-//                    },
-
-                    ],
-                    map_options : {
-                        scrollwheel : false,
-                        mapTypeControl : false,
-                        streetViewControl : false,
-                        zoomControlOptions : {
-                            style : google.maps.ZoomControlStyle.SMALL,
-                        },
-                        zoom : 4,
-                    }
-                };
-            </script>
+<!--            <script>-->
+<!---->
+<!---->
+<!---->
+<!--            </script>-->
         </div>
 
         <!-- MAPS TEXT -->
@@ -1105,6 +908,7 @@
 <script src="js/request.js"></script>
 <script src="js/alertifyjs/alertify.js"></script>
 <script src="js/jQuery-Mask-Plugin/src/jquery.mask.js"></script>
+<script src="js/map_scroller.js"></script>
 
 <!-- DEMO SWITCHER
 ================================= -->
