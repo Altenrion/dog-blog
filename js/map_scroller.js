@@ -370,7 +370,7 @@ function initialize() {
     var easingAnimator = EasingAnimator.makeFromCallback(function (latLng) {
         map.setCenter(latLng);
     });
-    easingAnimator.duration = 3000;
+    easingAnimator.duration = 6000;
     easingAnimator.step = 10;
 
     var newMarkers = new Array();
