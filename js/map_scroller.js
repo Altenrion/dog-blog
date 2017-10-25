@@ -370,7 +370,7 @@ function initialize() {
     var easingAnimator = EasingAnimator.makeFromCallback(function (latLng) {
         map.setCenter(latLng);
     });
-    easingAnimator.duration = 2000;
+    easingAnimator.duration = 3000;
     easingAnimator.step = 10;
 
     var newMarkers = new Array();
@@ -421,7 +421,7 @@ window.setInterval(function () {
     } else {
         $(_carouselBaseSelector + ' ' + _scrollNextClass).click();
     }
-}, 3000);
+}, 5000);
 
 $("body").on("click", _listItemClass, function () {
     $(_listItemClass).removeClass(_selectedClassHTML);
