@@ -27,7 +27,7 @@ var map,
     };
     this.callBack = opt.callBack || function () {};
     },
-    paw = "img/paw2.png",
+    paw = "../img/paw2.png",
     data_options = {
         generate_controls : false,
         locations : [
@@ -36,7 +36,7 @@ var map,
                 lon : 37.49602139,
                 animation : google.maps.Animation.DROP,
                 html : "Питомник Графство Багиры",
-                icon : "img/paw_main.png",
+                icon : "../img/paw_main.png",
             },
             {
                 lat : 58.493333,
@@ -304,7 +304,7 @@ $.fn.infiniteCarousel = function (config) {
 };
 
 $.fn.prepareLoopList = function (options) {
-    var html = "<button class='" + _scrollConrollClassHTML + ' ' + _scrollPrevClassHTML + "'>pre</button><div class='" + _listViewClassHTML + "'><div class='" + _listClassHTML + "'>";
+    var html = "<button class='" + _scrollConrollClassHTML + ' ' + _scrollPrevClassHTML + "'>pre</button><div class='" + _listViewClassHTML + " hidden-sm hidden-xs'><div class='" + _listClassHTML + "'>";
 
     for (var marker in options.locations) {
         var obj = options.locations[marker];

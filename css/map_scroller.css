@@ -28,11 +28,11 @@
   background: #353535;
 }
 .map_keep__button_viewport {
-  top: 30px;
+  top: 3em;
   left: 10px;
   position: absolute;
   width: 220px;
-  height: 480px;
+  height: 84.5%;
   overflow: hidden;
   padding: 0px 10px;
 }

@@ -877,7 +877,7 @@
 <!--        </h3>-->
 
         <div class="footer-socmed">
-            <a href="https://www.facebook.com/BulmastifPitomnikGrafstvoBagiry" target="_blank"><span class="fa fa-facebook"></span></a>
+            <a href="https://www.facebook.com/GrafstvoBagiry" target="_blank"><span class="fa fa-facebook"></span></a>
             <a href="https://vk.com/gbagiry" target="_blank"><span class="fa fa-vk"></span></a>
 <!--            <a href="#" target="_blank"><span class="fa fa-twitter"></span></a>-->
             <a href="https://www.instagram.com/grafstvobagiry/" target="_blank"><span class="fa fa-instagram"></span></a>
