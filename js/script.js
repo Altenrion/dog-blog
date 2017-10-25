@@ -226,9 +226,9 @@
          * Google Maps
          * =======================================
          */
-        if ( typeof Maplace == 'function' && $( '#gmap' ) ) {
-            new Maplace( gmap_options ).Load();
-        };
+        // if ( typeof Maplace == 'function' && $( '#gmap' ) ) {
+        //     new Maplace( gmap_options ).Load();
+        // };
 
         /**
          * =======================================
