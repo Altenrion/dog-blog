@@ -384,7 +384,8 @@ function initialize() {
         newMarkers.push(new google.maps.Marker({
             position: new google.maps.LatLng(obj.lat, obj.lon),
             map: this.map,
-            title: obj.html
+            title: obj.html,
+            icon : obj.icon,
         }));
     }
 
