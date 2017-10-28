@@ -116,8 +116,7 @@ var map,
                 animation : google.maps.Animation.DROP,
                 html : "Хельсинки",
                 icon : paw,
-            },
-            {
+            },{
                 lat : 56.2965039,
                 lon : 43.9360589,
                 animation : google.maps.Animation.DROP,
