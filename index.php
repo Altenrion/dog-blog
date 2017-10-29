@@ -904,7 +904,7 @@
 <script src="js/jquery.counterup.min.js"></script>
 <script src="js/jquery.stellar.min.js"></script>
 <script src="js/maplace-0.1.3.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/script.js?<?uniqid();?>"></script>
 <script src="js/request.js"></script>
 <script src="js/alertifyjs/alertify.js"></script>
 <script src="js/jQuery-Mask-Plugin/src/jquery.mask.js"></script>
