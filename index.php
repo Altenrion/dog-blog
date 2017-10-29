@@ -271,22 +271,22 @@
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member even">
                     <img class="team-member-picture" src="img/_DSC6003.jpg" alt="">
-                    <div class="team-member-text">
 
-                        <form class="form-horizontal">
-                            <div class="form-group">
-                                <label for="inputEmail" class="control-label col-xs-3">отец</label>
-                                <div class="col-xs-8">
-                                    <p class="form-control-static"> Графство Багиры Челленджер</p>
-                                </div>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail" class="control-label col-xs-3">отец</label>
+                            <div class="col-xs-8">
+                                <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
-                            <div class="form-group">
-                                <label for="inputEmail" class="control-label col-xs-3">мать</label>
-                                <div class="col-xs-8">
-                                    <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail" class="control-label col-xs-3">мать</label>
+                            <div class="col-xs-8">
+                                <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
-                        </form>
+                        </div>
+                    </form>
+                    <div class="team-member-text">
 <!--                        <div class="team-member-position">-->
 <!--                            <span class="text-left"></span>-->
 <!--                            отец: Графство Багиры Челленджер </div>-->
