@@ -186,11 +186,11 @@
                             <h4 class="form-heading" >Посетите наш питомник !</h4>
 
                             <div class="form-content">
-                                <p>Запишитесь по одному из телефонов:
+                                <p>Наши контакты для связи:
                                 <span class="center-block text-center">+7 916 300 1452</span>
                                 <span class="center-block text-center">+7 964 584 8854</span>
                                 </p>
-                                <p> или оставьте Ваш контактный номер, мы перезвоним</p>
+                                <p> Можете так же оставить Ваш контактный номер и мы с радостью Вам перезвоним</p>
                             </div>
 
                             <div id="action-form">
@@ -202,7 +202,7 @@
                             </div>
 
                             <div class="form-group form-group-submit">
-                                <button class="btn btn-primary btn-lg btn-block" data-loading-text="Action Button" id="send_request">записаться</button>
+                                <button class="btn btn-primary btn-lg btn-block" data-loading-text="Action Button" id="send_request">связаться</button>
                             </div>
                             <div class="form-group dog hidden form-content">
                                 <img src="img/icon_17820.png" alt=""/>

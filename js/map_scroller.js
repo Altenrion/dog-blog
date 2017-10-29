@@ -322,8 +322,6 @@ $(_carouselBaseSelector).prepareLoopList(data_options).infiniteCarousel({
     vertical: true
 });
 
-console.log("da1");
-
 EasingAnimator.makeFromCallback = function (callBack) {
     return new EasingAnimator({
         callBack: callBack

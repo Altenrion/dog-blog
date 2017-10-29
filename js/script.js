@@ -118,6 +118,10 @@
             });
         });
 
+        $body.on("click", "#header-nav li a", function(){
+            $("button.navbar-toggle").click();
+        });
+
         /* =======================================
          * Resize Video Background
          * =======================================
