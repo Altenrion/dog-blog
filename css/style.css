@@ -1393,10 +1393,12 @@ h1.hero-title.subtitle{
 }
 
 .team-member label.control-label.col-xs-3 {
-	padding-top: 11px;
+	padding-top: 8px;
+    font-weight: 800;
 }
 .team-member .form-group {
     margin-bottom: -30px;
+	font-size: 0.8em;
 }
 
 .team-member-name {
