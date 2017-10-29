@@ -200,8 +200,6 @@
                             <div class="form-group">
                                 <input type="text" name="phone" id="visit-form-phone" class="form-control" placeholder="Ваш телефон" autocomplete="off">
                             </div>
-                                <input type="text">
-
                             <div class="form-group form-group-submit">
                                 <button class="btn btn-primary btn-lg btn-block" data-loading-text="Action Button" id="send_request">связаться</button>
                             </div>
