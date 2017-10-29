@@ -272,7 +272,7 @@
                 <div class="team-member even">
                     <img class="team-member-picture" src="img/_DSC6003.jpg" alt="">
 
-                    <form class="form-horizontal">
+                    <div class="form-horizontal">
                         <div class="form-group">
                             <label for="inputEmail" class="control-label col-xs-3">отец</label>
                             <div class="col-xs-8">
@@ -285,7 +285,7 @@
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
                         </div>
-                    </form>
+                    </div>
                     <div class="team-member-text">
 <!--                        <div class="team-member-position">-->
 <!--                            <span class="text-left"></span>-->
