@@ -233,8 +233,20 @@
                 <div class="team-member">
                     <img class="team-member-picture" src="img/_DSC6093.jpg" alt="">
                     <div class="team-member-text">
-                        <div class="team-member-position">отец: Графство Багиры Челленджер </div>
-                        <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар</div>
+                        <div class="form-horizontal">
+                            <div class="form-group">
+                                <label for="inputEmail" class="control-label col-xs-3">отец</label>
+                                <div class="col-xs-8">
+                                    <p class="form-control-static"> Графство Багиры Челленджер</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail" class="control-label col-xs-3">мать</label>
+                                <div class="col-xs-8">
+                                    <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="top30 closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
                     </div>
                 </div>
@@ -245,8 +257,20 @@
                 <div class="team-member even">
                     <img class="team-member-picture" src="img/_DSC6052.jpg" alt="">
                     <div class="team-member-text">
-                        <div class="team-member-position">отец: Графство Багиры Челленджер </div>
-                        <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар</div>
+                        <div class="form-horizontal">
+                            <div class="form-group">
+                                <label for="inputEmail" class="control-label col-xs-3">отец</label>
+                                <div class="col-xs-8">
+                                    <p class="form-control-static"> Графство Багиры Челленджер</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail" class="control-label col-xs-3">мать</label>
+                                <div class="col-xs-8">
+                                    <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="top30 closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
                     </div>
                 </div>
@@ -258,9 +282,21 @@
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member">
                     <img class="team-member-picture" src="img/_DSC6082.jpg" alt="">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail" class="control-label col-xs-3">отец</label>
+                            <div class="col-xs-8">
+                                <p class="form-control-static"> Графство Багиры Челленджер</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail" class="control-label col-xs-3">мать</label>
+                            <div class="col-xs-8">
+                                <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="team-member-text">
-                        <div class="team-member-position">отец: Графство Багиры Челленджер </div>
-                        <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар </div>
                         <div class="top30 closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
                     </div>
                 </div>

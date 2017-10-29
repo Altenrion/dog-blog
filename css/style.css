@@ -1392,6 +1392,13 @@ h1.hero-title.subtitle{
     padding-top: 25px;
 }
 
+.team-member label.control-label.col-xs-3 {
+	padding-top: 11px;
+}
+.team-member .form-group {
+    margin-bottom: -30px;
+}
+
 .team-member-name {
     margin: 0 0 5px;
     font-family: "Montserrat", sans-serif;
