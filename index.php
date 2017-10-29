@@ -200,6 +200,7 @@
                             <div class="form-group">
                                 <input type="text" name="phone" id="visit-form-phone" class="form-control" placeholder="Ваш телефон" autocomplete="off">
                             </div>
+                                <input type="text">
 
                             <div class="form-group form-group-submit">
                                 <button class="btn btn-primary btn-lg btn-block" data-loading-text="Action Button" id="send_request">связаться</button>
@@ -236,6 +237,7 @@
                     <div class="team-member-text">
                         <div class="team-member-position">отец: Графство Багиры Челленджер </div>
                         <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар</div>
+                        <div class="closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -247,6 +249,7 @@
                     <div class="team-member-text">
                         <div class="team-member-position">отец: Графство Багиры Челленджер </div>
                         <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар</div>
+                        <div class="closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -260,6 +263,7 @@
                     <div class="team-member-text">
                         <div class="team-member-position">отец: Графство Багиры Челленджер </div>
                         <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар </div>
+                        <div class="closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -272,6 +276,7 @@
                     <div class="team-member-text">
                         <div class="team-member-position">отец: Графство Багиры Челленджер </div>
                         <div class="team-member-position">мать: Графство Багиры Эллис Тайгер Стар </div>
+                        <div class="closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -285,6 +290,27 @@
     </div>
 
 </section>
+
+<!--<section id="purchase" class="closing-section section-dark section">-->
+<!---->
+<!--    <div class="section-background">-->
+<!---->
+<!--        <!-- IMAGE BACKGROUND -->-->
+<!--        <div class="section-background-image parallax" data-stellar-ratio="0.4">-->
+<!--            <img src="img/road.jpg" alt="" style="opacity: 0.15;">-->
+<!--        </div>-->
+<!---->
+<!--    </div>-->
+<!---->
+<!--    <div class="container">-->
+<!---->
+<!--<!--        <h3 class="closing-shout">Готовы приехать? Свяжитесь с нами, воспользовавшись кнопкой ниже</h3>-->-->
+<!---->
+<!--        <div class="closing-buttons" ><a href="#purchase" class="anchor-link btn btn-lg btn-primary">Купить</a></div>-->
+<!---->
+<!--    </div>-->
+<!---->
+<!--</section>-->
 
 <!-- DESCRIPTION
 ================================= -->
