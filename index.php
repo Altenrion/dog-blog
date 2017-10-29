@@ -231,7 +231,7 @@
             <!-- TEAM MEMBER 1 -->
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member">
-                    <img class="team-member-picture" src="img/_DSC6093.jpg" alt="">
+                    <img class="team-member-picture" src="img/_DSC6093.jpg" alt="" data-identity="puppy-1">
                     <div class="form-horizontal">
                         <div class="form-group">
                             <label for="inputEmail" class="control-label col-xs-3">отец</label>
@@ -256,7 +256,7 @@
             <!-- TEAM MEMBER 2 -->
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member even">
-                    <img class="team-member-picture" src="img/_DSC6052.jpg" alt="">
+                    <img class="team-member-picture" src="img/_DSC6052.jpg" alt="" data-identity="puppy-2">
                     <div class="form-horizontal">
                         <div class="form-group">
                             <label for="inputEmail" class="control-label col-xs-3">отец</label>
@@ -283,7 +283,7 @@
             <!-- TEAM MEMBER 3 -->
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member">
-                    <img class="team-member-picture" src="img/_DSC6082.jpg" alt="">
+                    <img class="team-member-picture" src="img/_DSC6082.jpg" alt="" data-identity="puppy-3">
                     <div class="form-horizontal">
                         <div class="form-group">
                             <label for="inputEmail" class="control-label col-xs-3">отец</label>
@@ -309,7 +309,7 @@
             <!-- TEAM MEMBER 4 -->
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member even">
-                    <img class="team-member-picture" src="img/_DSC6003.jpg" alt="">
+                    <img class="team-member-picture" src="img/_DSC6003.jpg" alt="" data-identity="puppy-4">
 
                     <div class="form-horizontal">
                         <div class="form-group">

@@ -122,6 +122,13 @@
             $("button.navbar-toggle").click();
         });
 
+        $body.on("click", "#team .purchase", function(){
+
+            var identity = $(this).closest(".team-member .team-member-picture").attr("data-identity");
+            console.log("identity:"+ identity);
+
+        });
+
         /* =======================================
          * Resize Video Background
          * =======================================
