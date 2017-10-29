@@ -247,7 +247,8 @@
                         </div>
                     </div>
                     <div class="team-member-text">
-                        <div class="top30 closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
+                        <div class="top30 closing-buttons tada animated done-animation" data-animation="tada">
+                            <a href="#hero" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -271,7 +272,8 @@
                         </div>
                     </div>
                     <div class="team-member-text">
-                        <div class="top30 closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
+                        <div class="top30 closing-buttons tada animated done-animation" data-animation="tada">
+                            <a href="#hero" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -297,7 +299,8 @@
                         </div>
                     </div>
                     <div class="team-member-text">
-                        <div class="top30 closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
+                        <div class="top30 closing-buttons tada animated done-animation" data-animation="tada">
+                            <a href="#hero" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -323,12 +326,8 @@
                         </div>
                     </div>
                     <div class="team-member-text">
-<!--                        <div class="team-member-position">-->
-<!--                            <span class="text-left"></span>-->
-<!--                            отец: Графство Багиры Челленджер </div>-->
-<!--                        <div class="team-member-position">-->
-<!--                            мать: Графство Багиры Эллис Тайгер Стар </div>-->
-                        <div class="top30 closing-buttons tada animated done-animation" data-animation="tada"><a href="#purchase" class="anchor-link btn btn-ьв btn-primary">Купить</a></div>
+                        <div class="top30 closing-buttons tada animated done-animation" data-animation="tada">
+                            <a href="#hero" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
                     </div>
                 </div>
             </div>
