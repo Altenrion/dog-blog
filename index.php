@@ -248,7 +248,7 @@
                     </div>
                     <div class="team-member-text">
                         <div class="top30 closing-buttons tada animated done-animation" data-animation="tada">
-                            <a href="#hero" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
+                            <a href="" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -273,7 +273,7 @@
                     </div>
                     <div class="team-member-text">
                         <div class="top30 closing-buttons tada animated done-animation" data-animation="tada">
-                            <a href="#hero" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
+                            <a href="" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -300,7 +300,7 @@
                     </div>
                     <div class="team-member-text">
                         <div class="top30 closing-buttons tada animated done-animation" data-animation="tada">
-                            <a href="#hero" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
+                            <a href="" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
                     </div>
                 </div>
             </div>
@@ -327,7 +327,7 @@
                     </div>
                     <div class="team-member-text">
                         <div class="top30 closing-buttons tada animated done-animation" data-animation="tada">
-                            <a href="#hero" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
+                            <a href="" class="anchor-link btn btn-md btn-primary purchase">Купить</a></div>
                     </div>
                 </div>
             </div>
