@@ -136,14 +136,13 @@
             console.log("made all:", e)
 
             setTimeout(function(){
-                // elem.parent().trigger(e);
 
                 $('html, body').animate({
-                    scrollTop: $("#form.form").offset().top - 30
-                }, 2000);
+                    scrollTop: $("#form.form").offset().top +70
+                }, 1500);
 
-                console.log("event finishing:", e)
-            }, 2000);
+                console.log("event finishing:")
+            }, 1000);
 
 
         });
