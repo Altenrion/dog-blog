@@ -122,7 +122,7 @@
             $("button.navbar-toggle").click();
         });
 
-        $body.on("click", "#team .purchase", function(){
+        $body.on("click", "#team .purchase", function(e){
 
             var picture = $(this).closest(".team-member").find(".team-member-picture");
             var identity = picture.attr("data-identity");
@@ -130,6 +130,8 @@
             $("span.selected-puppy").remove();
 
             $(picture).after("<span class='benefit-icon fa fa-star bounceIn animated selected-puppy'></span>");
+
+            console.log("event:", e)
 
         });
 
