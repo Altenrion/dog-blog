@@ -595,12 +595,24 @@ iframe {
  * HEADER
  * ========================================
  */
+#form.form h4.form-heading {
+    position: relative;
+    /* padding-bottom: 20px; */
+    /* left: -27px; */
+    margin: 0 0 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: left;
+}
 
 #form.form h4.form-sub-heading {
     position: absolute;
     padding-bottom: 0px;
     margin: -33px auto;
-    left: 30%;
+    /* margin-left: 0; */
+    /* left: 85px; */
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     letter-spacing: 0.05em;
