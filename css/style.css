@@ -1372,6 +1372,12 @@ h1.hero-title.subtitle{
     margin-left: -15px;
     margin-right: -15px;
 }
+.team-member span.selected-puppy {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.8em;
+}
 .team-member.even {
     background-color: #ececec;
 }

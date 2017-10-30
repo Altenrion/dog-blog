@@ -124,8 +124,12 @@
 
         $body.on("click", "#team .purchase", function(){
 
-            var identity = $(this).closest(".team-member").find(".team-member-picture").attr("data-identity");
+            var picture = $(this).closest(".team-member").find(".team-member-picture");
+            var identity = picture.attr("data-identity");
             console.log("identity:"+ identity);
+            $("span.selected-puppy").remove();
+
+            picture.append("<span class='benefit-icon fa fa-star bounceIn animated selected-puppy'></span>");
 
         });
 
