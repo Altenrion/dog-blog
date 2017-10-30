@@ -129,7 +129,7 @@
             console.log("identity:"+ identity);
             $("span.selected-puppy").remove();
 
-            picture.append("<span class='benefit-icon fa fa-star bounceIn animated selected-puppy'></span>");
+            $("<span class='benefit-icon fa fa-star bounceIn animated selected-puppy'></span>").after(picture);
 
         });
 
