@@ -234,13 +234,13 @@
                     <img class="team-member-picture" src="img/_DSC6093.jpg" alt="" data-identity="puppy-1">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-3">отец</label>
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">отец</label>
                             <div class="col-xs-8">
                                 <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-3">мать</label>
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">мать</label>
                             <div class="col-xs-8">
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
@@ -259,13 +259,13 @@
                     <img class="team-member-picture" src="img/_DSC6052.jpg" alt="" data-identity="puppy-2">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-3">отец</label>
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">отец</label>
                             <div class="col-xs-8">
                                 <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-3">мать</label>
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">мать</label>
                             <div class="col-xs-8">
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
@@ -286,13 +286,13 @@
                     <img class="team-member-picture" src="img/_DSC6082.jpg" alt="" data-identity="puppy-3">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-3">отец</label>
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">отец</label>
                             <div class="col-xs-8">
                                 <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-3">мать</label>
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">мать</label>
                             <div class="col-xs-8">
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
@@ -313,13 +313,13 @@
 
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-3">отец</label>
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">отец</label>
                             <div class="col-xs-8">
                                 <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-3">мать</label>
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">мать</label>
                             <div class="col-xs-8">
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>

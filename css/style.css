@@ -1145,6 +1145,10 @@ h1.hero-title.subtitle{
         line-height: 10px;
         padding-top: 24px;
     }
+    #form.form h4.form-heading {
+        font-size: 1.2em;
+    }
+
 }
 
 /* HERO LAYOUT: FEATURES AND FORM */
