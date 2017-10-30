@@ -123,6 +123,8 @@
         });
 
         $body.on("click", "#team .purchase", function(e){
+            e.stopPropagation();
+            var elem = $(this);
 
             var picture = $(this).closest(".team-member").find(".team-member-picture");
             var identity = picture.attr("data-identity");
@@ -131,7 +133,13 @@
 
             $(picture).after("<span class='benefit-icon fa fa-star bounceIn animated selected-puppy'></span>");
 
-            console.log("event:", e)
+            console.log("made all:", e)
+
+            setTimeout(function(){
+                elem.parent().trigger(e);
+                console.log("event finishing:", e)
+            }, 2000);
+
 
         });
 
