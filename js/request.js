@@ -59,6 +59,12 @@ $(document).ready(function() {
         var name = $('#visit-form-name').val();
         var phone = $('#visit-form-phone').val();
 
+        var messageObject = { name: name, phone: phone };
+
+        if(window.puppy-identity-set != false){
+            messageObject.puppy = window.puppy-identity-set;
+        }
+
         if(name.length > 0 && phone.length >0){
             $.ajax({
                 url: 'request.php',
@@ -66,7 +72,7 @@ $(document).ready(function() {
                 type: 'post',
                 contentType: 'application/json',
                 processData: false,
-                data: JSON.stringify({ name: name, phone: phone }),
+                data: JSON.stringify(messageObject),
 
                 success: function( data, textStatus, jQxhr ){
                     console.log(data);

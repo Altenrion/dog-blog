@@ -30,9 +30,13 @@ if (empty($received_data["name"]) || empty($received_data["phone"]))
 
 $name = $received_data['name'];
 $phone = $received_data['phone'];
+$puppy = isset($received_data['puppy'])? $received_data['puppy']:"";
+
+
+$saving_puppy = $puppy==""?"":" ( ".$puppy." ) ";
 
 $link = mysqli_connect("localhost","altenrion_gbland","Altenrion","altenrion_gbland") or die("Error " . mysqli_error($link));
-$query = "INSERT INTO requests (`name`, `phone`) VALUES ('$name','$phone')" or die("Error in the consult.." . mysqli_error($link));
+$query = "INSERT INTO requests (`name`, `phone`) VALUES ('$name.$saving_puppy','$phone')" or die("Error in the consult.." . mysqli_error($link));
 
 $result = $link->query($query);
 
@@ -69,10 +73,10 @@ try {
     $data = array(
         "Активность на сайте",
         "Заявка на визит питомника",
-        "На сайте grafstvobagiry.ru посетитель ". ucfirst($name) ." оставил заявку на визит питомника.
-         Для связи указан телефон : <a href='tel:$phone'> $phone </a>. <br>
+        "На сайте grafstvobagiry.ru посетитель ". ucfirst($name) ." оставил заявку на визит питомника.".
+        ($puppy==""?"":" Пользователь выбрал <b>щенка ".$puppy."</b>.")
+        ." Для связи указан телефон : <a href='tel:$phone'> $phone </a>. <br>
          Необходимо оправдать ожидания, связатья с ним и согласовать встречу."
-
     );
 
     $messageBody = str_replace($patterns, $data, $bodyHtml);

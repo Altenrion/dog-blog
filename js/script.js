@@ -1,6 +1,9 @@
 ;(function( $ ) {
     "use strict";
 
+    // noinspection JSAnnotator
+    window.puppy-identity-set = false;
+
     $( document ).on( 'ready', function() {
 
         var $window = $( window ),
@@ -129,11 +132,16 @@
             var picture = $(this).closest(".team-member").find(".team-member-picture");
             var identity = picture.attr("data-identity");
             console.log("identity:"+ identity);
+
+            // noinspection JSAnnotator
+            window.puppy-identity-set = identity;
+
+            console.log("identity: ",window.puppy-identity-set, identity);
+
             $("span.selected-puppy").remove();
 
             $(picture).after("<span class='benefit-icon fa fa-star bounceIn animated selected-puppy'></span>");
 
-            console.log("made all:", e)
 
             setTimeout(function(){
 
@@ -148,11 +156,7 @@
                         });
                     });
                 }, 1500);
-
-                console.log("event finishing:")
             }, 1000);
-
-
         });
 
         /* =======================================
