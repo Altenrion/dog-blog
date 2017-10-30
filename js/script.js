@@ -124,7 +124,7 @@
 
         $body.on("click", "#team .purchase", function(){
 
-            var identity = $(this).closest(".team-member .team-member-picture").attr("data-identity");
+            var identity = $(this).closest(".team-member").find(".team-member-picture").attr("data-identity");
             console.log("identity:"+ identity);
 
         });
