@@ -141,9 +141,11 @@
                     scrollTop: $("#form.form").offset().top -100
                 }, 1500);
 
-                $("#form.form .form-heading").fadeOut(function() {
-                    $(this).text("Спасибо за выбор щенка").after("<h4 class=\"form-sub-heading\">Свяжитесь с нами для покупки</h4>").end().fadeIn();
-                });
+                setTimeout(function(){
+                    $("#form.form .form-heading").fadeOut(function() {
+                        $(this).text("Спасибо за выбор щенка").after("<h4 class=\"form-sub-heading\">Свяжитесь с нами для покупки</h4>").fadeIn();
+                    });
+                }, 1500);
 
                 console.log("event finishing:")
             }, 1000);
