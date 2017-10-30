@@ -595,6 +595,19 @@ iframe {
  * HEADER
  * ========================================
  */
+
+#form.form h4.form-sub-heading {
+    position: absolute;
+    padding-bottom: 0px;
+    margin: -33px auto;
+    left: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .header-section {
     position: fixed;
     z-index: 100;

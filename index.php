@@ -183,7 +183,7 @@
                         <!-- FORM -->
                         <form action="" method="post" id="form" class="form" role="form">
 
-                            <h4 class="form-heading" >Посетите наш питомник !</h4>
+                            <h4 class="form-heading" >Посетите наш питомник</h4>
 
                             <div class="form-content">
                                 <p>Наши контакты для связи:
