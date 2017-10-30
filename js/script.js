@@ -138,7 +138,7 @@
             setTimeout(function(){
 
                 $('html, body').animate({
-                    scrollTop: $("#form.form").offset().top +70
+                    scrollTop: $("#form.form").offset().top -100
                 }, 1500);
 
                 console.log("event finishing:")
