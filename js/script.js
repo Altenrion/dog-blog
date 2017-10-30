@@ -143,7 +143,9 @@
 
                 setTimeout(function(){
                     $("#form.form .form-heading").fadeOut(1000, function() {
-                        $(this).text("Спасибо за выбор щенка").after("<h4 class=\"form-sub-heading\">Свяжитесь с нами для покупки</h4>").fadeIn(1000);
+                        $(this).text("Спасибо за выбор щенка").fadeIn(1000, function () {
+                            $(this).after("<h4 class=\"form-sub-heading\">Свяжитесь с нами для покупки</h4>").hide().fadeIn(1000);
+                        });
                     });
                 }, 1500);
 
