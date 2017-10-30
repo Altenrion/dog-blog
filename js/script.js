@@ -2,7 +2,7 @@
     "use strict";
 
     // noinspection JSAnnotator
-    window.puppy-identity-set = false;
+    window.puppy_identity = false;
 
     $( document ).on( 'ready', function() {
 
@@ -134,9 +134,9 @@
             console.log("identity:"+ identity);
 
             // noinspection JSAnnotator
-            window.puppy-identity-set = identity;
+            window.puppy_identity = identity;
 
-            console.log("identity: ",window.puppy-identity-set, identity);
+            console.log("identity: ",window.puppy_identity, identity);
 
             $("span.selected-puppy").remove();
 

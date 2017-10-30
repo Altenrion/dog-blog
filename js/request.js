@@ -61,8 +61,8 @@ $(document).ready(function() {
 
         var messageObject = { name: name, phone: phone };
 
-        if(window.puppy-identity-set != false){
-            messageObject.puppy = window.puppy-identity-set;
+        if(window.puppy_identity != false){
+            messageObject.puppy = window.puppy_identity;
         }
 
         if(name.length > 0 && phone.length >0){
