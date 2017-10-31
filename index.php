@@ -406,8 +406,10 @@
             </div>
 
         </div>
-        <div class="container">
-            <div id="instafeed"></div>
+        <div class="container instafeed">
+            <div class="instafeed-view">
+                <div id="instafeed" class="instafeed-list"></div>
+            </div>
         </div>
     </section>
 
@@ -987,30 +989,79 @@
 <script src="js/request.js?<?=uniqid();?>"></script>
 <script src="js/alertifyjs/alertify.js"></script>
 <script src="js/jQuery-Mask-Plugin/src/jquery.mask.js"></script>
-<script src="js/map_scroller.js"></script>
+<script src="js/map_scroller.js?<?=uniqid();?>"></script>
 <script type="text/javascript" src="js/instafeed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-//        userId: '6262509009',
-//        accessToken: '6262509009.1677ed0.b6cf639de6b84f5fb8abb784bdd44e56',
 //        clientId: '1b29953677fe4691a66889bf910ed835'
 
 //        clientId: 'a3f25f257cdc4b77bcce0761d9dfccde'
     var feed = new Instafeed({
         get: 'user',
+//        userId: '6262509009',
+//        accessToken: '6262509009.1677ed0.b6cf639de6b84f5fb8abb784bdd44e56',
         userId: '6156847034',
-        accessToken: '6156847034.1677ed0.b625d5bf1ed74c719aaf0c8e6d7a38c6',
+        accessToken: '6156847034.1677ed0.69ff330f2a134600bcaae59473f32b90',
         resolution: 'low_resolution',
         template: '<div class="insta-card">' +
         '<span class="insta-top" ><img src="{{model.user.profile_picture}}" />{{model.user.username}} </span>' +
         '<a href="{{link}}"><img src="{{image}}" /></a>' +
         '<span class="insta-bottom" >' +
         ' <i class="icon fa fa-heart"></i> {{model.likes.count}} likes <br>' +
-        '<b>@{{model.user.username}} :</b> {{caption}}</span></div>'
+        '<span class="main-text"><b>@{{model.user.username}} :</b> {{caption}}</span></span></div>'
 
 
     });
     feed.run();
+
+    setTimeout(function(){
+
+    var $holder = $(".instafeed-view");
+    var $list = $holder.find(".instafeed-list");
+    var $clonedList = $list.clone();
+
+    var listWidth = $list.find(".insta-card").length * 360;
+    var endPos = $holder.width() - listWidth;
+
+    console.info(listWidth);
+
+    $list.add($clonedList).css({
+        "width" : listWidth + "px"
+    });
+
+    $clonedList.addClass("cloned").appendTo($holder);
+
+    //TimelineMax
+    var infinite = new TimelineMax({repeat: -1, paused: false});
+    var time = 70;
+
+    infinite.fromTo($list, time, {left:0}, {left: -listWidth, ease: Linear.easeNone}, 0);
+    infinite.fromTo($clonedList, time, {left:listWidth}, {left:0, ease: Linear.easeNone}, 0);
+    infinite.set($list, {left: listWidth});
+    infinite.to($clonedList, time, {left: -listWidth, ease: Linear.easeNone}, time);
+    infinite.to($list, time, {left: 0, ease: Linear.easeNone}, time);
+
+    //Pause/Play
+
+    $holder.on("mouseenter", function(){
+        infinite.pause();
+    }).on("mouseleave", function(){
+        infinite.play();
+    });
+    }, 2000);
+
+
+
+//    $(".container.instafeed").infiniteCarousel({
+//        itemsPerMove: 1,
+//        duration: 2000,
+//        vertical: false,
+//        listViewClass:".instafeed-view",
+//        listClass:".instafeed-list"
+//    });
+
+
 </script>
 
 <!-- DEMO SWITCHER

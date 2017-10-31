@@ -235,12 +235,20 @@ $.fn.infiniteCarousel = function (config) {
     config = $.extend({
         itemsPerMove: 2,
         duration: 1000,
-        vertical: false
+        vertical: false,
+        listViewClass: "",
+        listClass: "",
+        dir: "next",
+
 
     }, config);
 
-    var viewportEl = this.find(_listViewClass),
-        listEl = viewportEl.find(_listClass);
+    if(config.listViewClass == "" || config.listClass == "" ){
+       console.error("bad data passed to infiniteCarousel plugin ");
+    }
+
+    var viewportEl = this.find(config.listViewClass), //_listViewClass
+        listEl = viewportEl.find(config.listClass); //_listClass
     var first = listEl.children(":first"),
         last = listEl.children(":last");
 
@@ -302,11 +310,12 @@ $.fn.infiniteCarousel = function (config) {
     return this;
 };
 
-$.fn.prepareLoopList = function (options) {
+$.fn.prepareLoopList = function (list_items) {
+
     var html = "<button class='" + _scrollConrollClassHTML + ' ' + _scrollPrevClassHTML + "'>pre</button><div class='" + _listViewClassHTML + " hidden-sm hidden-xs'><div class='" + _listClassHTML + "'>";
 
-    for (var marker in options.locations) {
-        var obj = options.locations[marker];
+    for (var item in list_items) {
+        var obj = list_items[item];
 
         html += "<div class='" + _listItemClassHTML + "'>" + obj.html + "</div>";
     }
@@ -316,10 +325,12 @@ $.fn.prepareLoopList = function (options) {
     return this;
 };
 
-$(_carouselBaseSelector).prepareLoopList(data_options).infiniteCarousel({
+$(_carouselBaseSelector).prepareLoopList(data_options.locations).infiniteCarousel({
     itemsPerMove: 1,
     duration: 500,
-    vertical: true
+    vertical: true,
+    listViewClass:_listViewClass,
+    listClass:_listClass
 });
 
 EasingAnimator.makeFromCallback = function (callBack) {

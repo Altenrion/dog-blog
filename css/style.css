@@ -1940,17 +1940,26 @@ span.center-block:nth-child(1) {
     display: table-cell;
     padding: 10px;
 }
+.container.instafeed {
+    height: 490px;
+}
+
+div#instafeed {
+    position: absolute;
+    top: 20px;
+    width: 9999px;
+}
 
 #instafeed .insta-card {
     float: left;
     display: block;
     padding: 10px;
-    height: 414px;
+    height: 444px;
     width: 320px;
     background: white;
     color: black;
     font-size: 12px;
-    margin: 11px;
+    margin: 20px;
     overflow: hidden;
 }
 #instafeed span.insta-top {
@@ -1969,10 +1978,46 @@ span.center-block:nth-child(1) {
 #instafeed span.insta-bottom {
     margin-top: 5px;
     display: block;
-    margin-left: 19px;
+    height: 80px;
+    overflow: hidden;
 }
 
-#instafeed span.insta-bottom .fa-heart {
-    margin-left: -16px;
+/*#instafeed span.insta-bottom .fa-heart {*/
+    /*margin-left: -16px;*/
+/*}*/
+
+#instafeed span.main-text{
+    margin-left: 16px;
+    display: block;
 }
 
+
+
+.instafeed-view {
+    /* top: 3em; */
+    left: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0px 10px;
+}
+.instafeed-list {
+    /* height: 300px; */
+    /* padding: 10px; */
+    width: 210px;
+    overflow: visible;
+    margin-left: -10px;
+}
+#instafeed button.control {
+    position: absolute;
+}
+
+#instafeed button.control.next {
+    margin-left: 40px;
+}
+
+.container.instafeed {
+     height: 490px;
+     width: 100%;
+ }
