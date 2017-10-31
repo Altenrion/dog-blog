@@ -991,11 +991,15 @@
 <script type="text/javascript" src="js/instafeed.min.js"></script>
 
 <script type="text/javascript">
+//        userId: '6262509009',
+//        accessToken: '6262509009.1677ed0.b6cf639de6b84f5fb8abb784bdd44e56',
+//        clientId: '1b29953677fe4691a66889bf910ed835'
+
+//        clientId: 'a3f25f257cdc4b77bcce0761d9dfccde'
     var feed = new Instafeed({
         get: 'user',
-        userId: '6262509009',
-        accessToken: '6262509009.1677ed0.b6cf639de6b84f5fb8abb784bdd44e56',
-//        clientId: '1b29953677fe4691a66889bf910ed835'
+        userId: '6156847034',
+        accessToken: '6156847034.1677ed0.b625d5bf1ed74c719aaf0c8e6d7a38c6',
         resolution: 'low_resolution',
         template: '<div class="insta-card">' +
         '<span class="insta-top" ><img src="{{model.user.profile_picture}}" />{{model.user.username}} </span>' +
