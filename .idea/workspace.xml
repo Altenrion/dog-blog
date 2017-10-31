@@ -4,8 +4,6 @@
     <list default="true" id="676a9b2b-9d1e-45a7-a2e8-2f9fa1c5709f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/map_scroller.js" afterPath="$PROJECT_DIR$/js/map_scroller.js" />
     </list>
     <ignored path="DogLanding.iws" />
     <ignored path=".idea/" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="1980" column="0" lean-forward="false" selection-start-line="1980" selection-start-column="0" selection-end-line="1980" selection-end-column="0" />
+            <state relative-caret-position="372">
+              <caret line="2004" column="17" lean-forward="true" selection-start-line="2004" selection-start-column="17" selection-end-line="2004" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -71,8 +69,8 @@
       <file leaf-file-name="map_scroller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/map_scroller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="312" column="46" lean-forward="true" selection-start-line="312" selection-start-column="46" selection-end-line="312" selection-end-column="46" />
+            <state relative-caret-position="594">
+              <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
               <folding>
                 <element signature="e#743#1146#0" expanded="false" />
                 <element signature="e#960#1087#0" expanded="false" />
@@ -319,15 +317,16 @@
       <updated>1436376977605</updated>
       <workItem from="1509373702215" duration="102000" />
       <workItem from="1509373815379" duration="2307000" />
-      <workItem from="1509469992039" duration="22176000" />
+      <workItem from="1509469992039" duration="22477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24585000" />
+    <option name="totallyTimeSpent" value="24886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="6" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21024546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -337,7 +336,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31518325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31518325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -625,10 +624,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="1013" column="0" lean-forward="true" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1509493314400" expanded="true" signature="46917:46948" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/map_scroller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="312" column="46" lean-forward="true" selection-start-line="312" selection-start-column="46" selection-end-line="312" selection-end-column="46" />
+        <state relative-caret-position="594">
+          <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
           <folding>
             <element signature="e#743#1146#0" expanded="false" />
             <element signature="e#960#1087#0" expanded="false" />
@@ -698,21 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="1013" column="0" lean-forward="true" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1509493314400" expanded="true" signature="46917:46948" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1980" column="0" lean-forward="false" selection-start-line="1980" selection-start-column="0" selection-end-line="1980" selection-end-column="0" />
+        <state relative-caret-position="372">
+          <caret line="2004" column="17" lean-forward="true" selection-start-line="2004" selection-start-column="17" selection-end-line="2004" selection-end-column="17" />
           <folding />
         </state>
       </provider>

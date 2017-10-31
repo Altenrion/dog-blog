@@ -1995,7 +1995,7 @@ div#instafeed {
 
 .instafeed-view {
     /* top: 3em; */
-    left: 10px;
+    left: 0px;
     position: absolute;
     width: 100%;
     height: 100%;
