@@ -1,6 +1,11 @@
 
 GITTEXT=$(MSG)
 
+build:
+	@echo "Building container..."
+	docker build -t dog-blog .
+	@echo "Run container for local tests..."
+	docker run --name=dog-blog-doc -it --rm -p 80:80 dog-blog
 
 push:
 	@echo "Prepare building...setting OS & build..."

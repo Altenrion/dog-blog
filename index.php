@@ -396,8 +396,24 @@
 
 </section>
 
-<!-- BENEFITS
-================================= -->
+    <section id="numbers" class="numbers-section section-dark section">
+
+        <div class="section-background">
+
+            <!-- IMAGE BACKGROUND -->
+            <div class="section-background-image parallax" data-stellar-ratio="0.4">
+                <img src="img/trophy.png" style="opacity: 0.2;">
+            </div>
+
+        </div>
+        <div class="container">
+            <div id="instafeed"></div>
+        </div>
+    </section>
+
+
+    <!-- BENEFITS
+    ================================= -->
 <section id="benefits" class="benefits-section section-gray section">
 
     <div class="container">
@@ -849,19 +865,6 @@
 
                 <div class="infinite-carousel"></div>
             </div>
-
-<!--            <div id="gmap"></div>-->
-
-
-
-<!--            <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>-->
-            <!-- GOGGLE MAPS CONFIGURATION -->
-            <!-- ref: http://maplacejs.com/ -->
-<!--            <script>-->
-<!---->
-<!---->
-<!---->
-<!--            </script>-->
         </div>
 
         <!-- MAPS TEXT -->
@@ -915,7 +918,6 @@
 
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
-
 
                             <!-- SUBSCRIPTION FORM -->
                             <form name="subscribe" action="" method="post" class="subscription-form form-ajax-submit" role="form">
@@ -986,6 +988,26 @@
 <script src="js/alertifyjs/alertify.js"></script>
 <script src="js/jQuery-Mask-Plugin/src/jquery.mask.js"></script>
 <script src="js/map_scroller.js"></script>
+<script type="text/javascript" src="js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '6262509009',
+        accessToken: '6262509009.1677ed0.b6cf639de6b84f5fb8abb784bdd44e56',
+//        clientId: '1b29953677fe4691a66889bf910ed835'
+        resolution: 'low_resolution',
+        template: '<div class="insta-card">' +
+        '<span class="insta-top" ><img src="{{model.user.profile_picture}}" />{{model.user.username}} </span>' +
+        '<a href="{{link}}"><img src="{{image}}" /></a>' +
+        '<span class="insta-bottom" >' +
+        ' <i class="icon fa fa-heart"></i> {{model.likes.count}} likes <br>' +
+        '<b>@{{model.user.username}} :</b> {{caption}}</span></div>'
+
+
+    });
+    feed.run();
+</script>
 
 <!-- DEMO SWITCHER
 ================================= -->

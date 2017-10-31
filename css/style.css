@@ -1940,3 +1940,39 @@ span.center-block:nth-child(1) {
     display: table-cell;
     padding: 10px;
 }
+
+#instafeed .insta-card {
+    float: left;
+    display: block;
+    padding: 10px;
+    height: 414px;
+    width: 320px;
+    background: white;
+    color: black;
+    font-size: 12px;
+    margin: 11px;
+    overflow: hidden;
+}
+#instafeed span.insta-top {
+    /* padding: 10px; */
+    display: block;
+    margin-bottom: 10px;
+    /* margin-left: -10px; */
+}
+
+#instafeed span.insta-top img {
+    width: 25px;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+#instafeed span.insta-bottom {
+    margin-top: 5px;
+    display: block;
+    margin-left: 19px;
+}
+
+#instafeed span.insta-bottom .fa-heart {
+    margin-left: -16px;
+}
+
