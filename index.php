@@ -355,7 +355,6 @@
         </div>
 
     </div>
-
 </section>
 
     <section id="photos" class="numbers-section section-dark section">
@@ -513,7 +512,7 @@
                     <div class="hiw-item-text">
                         <span class="hiw-item-icon">4</span>
                         <h4 class="hiw-item-title">Будьте счастливы!</h4>
-                        <p class="hiw-item-description"> </p>
+                        <p class="hiw-item-description">Щенок бульмастифа игрив, добродушен и очень хорошо ладит с детьми</p>
                     </div>
                 </div>
             </div>
