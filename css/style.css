@@ -614,10 +614,11 @@ iframe {
     /* margin-left: 0; */
     /* left: 85px; */
     font-family: "Montserrat", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     text-align: center;
+    color: #ccc;
 }
 
 .header-section {
@@ -1140,7 +1141,7 @@ h2.hero-title.subtitle{
     .hero-layout-classic .hero-tagline {
         font-size: 11px;
     }
-    h1.hero-title.subtitle {
+    h2.hero-title.subtitle {
         font-size: 25px;
         line-height: 10px;
         padding-top: 24px;
@@ -1427,13 +1428,14 @@ h2.hero-title.subtitle{
     padding-top: 25px;
 }
 
-.team-member label.control-label.col-xs-3 {
-	padding-top: 8px;
+.team-member label.control-label {
+    padding-top: 10px;
     font-weight: 800;
+    font-size: 10px;
 }
 .team-member .form-group {
     margin-bottom: -30px;
-	font-size: 0.8em;
+    font-size: 1em;
 }
 
 .team-member-name {

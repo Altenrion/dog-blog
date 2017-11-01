@@ -108,8 +108,8 @@ $(document).ready(function() {
         accessToken: '6156847034.1677ed0.69ff330f2a134600bcaae59473f32b90',
         resolution: 'low_resolution',
         template: '<div class="insta-card">' +
-        '<span class="insta-top" ><img src="{{model.user.profile_picture}}" />{{model.user.username}} </span>' +
-        '<a href="{{link}}"><img src="{{image}}" /></a>' +
+        '<span class="insta-top" ><img  alt="Бульмастиф купить" src="{{model.user.profile_picture}}" />{{model.user.username}} </span>' +
+        '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>' +
         '<span class="insta-bottom" >' +
         ' <i class="icon fa fa-heart"></i> {{model.likes.count}} likes <br>' +
         '<span class="main-text"><b>@{{model.user.username}} :</b> {{caption}}</span></span></div>'

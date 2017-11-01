@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- BASIC INFO -->
-    <title>Графство Багиры - питомник породы бульмастиф поможет Вам купить щенка</title>
+    <title>Питомник Графство Багиры - поможет Вам купить щенка бульмастифа</title>
     <meta name="author" content="Barishev Nikita">
     <meta name="keywords" content="Графство Багиры, щенки, щенки породы бульмастиф, бульмастифы, купить щенка бульмастифа, купить щенка, купить собаку, питомник, питомник бульмастифов, бульмастиф купить, бульмастиф фото, бульмастиф характер, бульмастиф цена">
     <meta name="description" content="Графство Багиры - питомник породы бульмастиф с лучшими щенками и собаками шоу класса. Есть щенки на продажу.">
@@ -74,7 +74,6 @@
 
             <!-- HEADER LOGO -->
             <span class="navbar-logo navbar-brand anchor-link" href="#hero">
-<!--                <img src="http://design.davidrozando.com/drew-html-v1.1/images/logos/header-logo.png" srcset="images/logos/header-logo@2x.png 2x" alt="Drew">-->
                 Графство Багиры
             </span>
 
@@ -88,15 +87,16 @@
                 <li><a href="#hero" class="hidden">Top</a></li>
 
                 <li><a href="#about">О питомнике</a></li>
+                <li><a href="#team">Щенки</a></li>
+                <li><a href="#photos">Фото</a></li>
                 <li><a href="#benefits">преимущества</a></li>
                 <li><a href="#how-it-works">шаги к счастью</a></li>
                 <li><a href="#numbers">Цифры о нас</a></li>
-                <li><a href="#team">Наши щенки</a></li>
-                <li><a href="#pricing">Стоимость щенков</a></li>
+                <li><a href="#pricing">Цены</a></li>
                 <li><a href="#maps">Мы в мире</a></li>
 
                 <!-- HEADER ACTION BUTTON -->
-                <li class="header-action-button"><a href="#" class="btn btn-primary">записаться</a></li>
+                <li class="header-action-button"><a href="#hero" class="btn btn-primary">связаться</a></li>
 
             </ul>
 
@@ -114,25 +114,8 @@
 
         <!-- IMAGE BACKGROUND -->
         <div class="section-background-image parallax" data-stellar-ratio="0.4">
-            <img src="img/fon_hero2.jpg" alt="" style="opacity: 0.4;">
+            <img src="img/fon_hero2.jpg" alt="Подскажем вам где купить щенка москва" style="opacity: 0.4;">
         </div>
-
-        <!-- VIDEO BACKGROUND -->
-        <!-- <div class="section-background-video section-background-dot-overlay parallax" data-stellar-ratio="0.4">
-            <video preload="auto" autoplay loop muted poster="images/backgrounds/video-fallback-bg.jpg" style="opacity: 0.3;">
-                <source type="video/mp4" src="videos/video-bg.mp4">
-                <source type="video/ogg" src="videos/video-bg.ogv">
-                <source type="video/webm" src="videos/video-bg.webm">
-            </video>
-        </div> -->
-
-        <!-- SLIDESHOW BACKGROUND -->
-        <!-- <ul class="section-background-slideshow parallax" data-stellar-ratio="0.4" data-speed="800" data-timeout="4000">
-            <li><img src="images/backgrounds/hero-bg-slideshow-1.jpg" alt="" style="opacity: 0.25;"></li>
-            <li><img src="images/backgrounds/hero-bg-slideshow-2.jpg" alt="" style="opacity: 0.25;"></li>
-            <li><img src="images/backgrounds/hero-bg-slideshow-3.jpg" alt="" style="opacity: 0.2;"></li>
-        </ul> -->
-
     </div>
 
     <div class="container">
@@ -204,7 +187,7 @@
                                 <button class="btn btn-primary btn-lg btn-block" data-loading-text="Action Button" id="send_request">связаться</button>
                             </div>
                             <div class="form-group dog hidden form-content">
-                                <img src="img/icon_17820.png" alt=""/>
+                                <img src="img/icon_17820.png" alt="купить щенка бульмастифа"/>
                                 <p>Будем рады видеть Вас в питомнике Графство Багиры !</p>
                             </div>
 
@@ -231,17 +214,17 @@
             <!-- TEAM MEMBER 1 -->
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member">
-                    <img class="team-member-picture" src="img/_DSC6093.jpg" alt="" data-identity="puppy-1">
+                    <img class="team-member-picture" src="img/_DSC6093.jpg" alt="Купить щенка бульмастифа" data-identity="puppy-1">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">отец</label>
-                            <div class="col-xs-8">
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-2">отец</label>
+                            <div class="col-xs-9">
                                 <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">мать</label>
-                            <div class="col-xs-8">
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-2">мать</label>
+                            <div class="col-xs-9">
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
                         </div>
@@ -256,17 +239,17 @@
             <!-- TEAM MEMBER 2 -->
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member even">
-                    <img class="team-member-picture" src="img/_DSC6052.jpg" alt="" data-identity="puppy-2">
+                    <img class="team-member-picture" src="img/_DSC6052.jpg" alt="Купить собаку" data-identity="puppy-2">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">отец</label>
-                            <div class="col-xs-8">
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-2">отец</label>
+                            <div class="col-xs-9">
                                 <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">мать</label>
-                            <div class="col-xs-8">
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-2">мать</label>
+                            <div class="col-xs-9">
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
                         </div>
@@ -283,17 +266,17 @@
             <!-- TEAM MEMBER 3 -->
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member">
-                    <img class="team-member-picture" src="img/_DSC6082.jpg" alt="" data-identity="puppy-3">
+                    <img class="team-member-picture" src="img/_DSC6082.jpg" alt="купить бульмастифа" data-identity="puppy-3">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">отец</label>
-                            <div class="col-xs-8">
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-2">отец</label>
+                            <div class="col-xs-9">
                                 <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">мать</label>
-                            <div class="col-xs-8">
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-2">мать</label>
+                            <div class="col-xs-9">
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
                         </div>
@@ -309,18 +292,18 @@
             <!-- TEAM MEMBER 4 -->
             <div class="col-lg-3 col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="team-member even">
-                    <img class="team-member-picture" src="img/_DSC6003.jpg" alt="" data-identity="puppy-4">
+                    <img class="team-member-picture" src="img/_DSC6003.jpg" alt="Купить щенка в москве" data-identity="puppy-4">
 
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">отец</label>
-                            <div class="col-xs-8">
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-2">отец</label>
+                            <div class="col-xs-9">
                                 <p class="form-control-static"> Графство Багиры Челленджер</p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-3">мать</label>
-                            <div class="col-xs-8">
+                            <label for="inputEmail" class="control-label col-xs-offset-1 col-xs-2">мать</label>
+                            <div class="col-xs-9">
                                 <p class="form-control-static">Графство Багиры Эллис Тайгер Стар</p>
                             </div>
                         </div>
@@ -342,27 +325,6 @@
 
 </section>
 
-<!--<section id="purchase" class="closing-section section-dark section">-->
-<!---->
-<!--    <div class="section-background">-->
-<!---->
-<!--        <!-- IMAGE BACKGROUND -->
-<!--        <div class="section-background-image parallax" data-stellar-ratio="0.4">-->
-<!--            <img src="img/road.jpg" alt="" style="opacity: 0.15;">-->
-<!--        </div>-->
-<!---->
-<!--    </div>-->
-<!---->
-<!--    <div class="container">-->
-<!---->
-<!--<!--        <h3 class="closing-shout">Готовы приехать? Свяжитесь с нами, воспользовавшись кнопкой ниже</h3>-->
-<!---->
-<!--        <div class="closing-buttons" ><a href="#purchase" class="anchor-link btn btn-lg btn-primary">Купить</a></div>-->
-<!---->
-<!--    </div>-->
-<!---->
-<!--</section>-->
-
 <!-- DESCRIPTION
 ================================= -->
 <section id="about" class="about-section section">
@@ -375,7 +337,7 @@
 
             <!-- DESCRIPTION IMAGE -->
             <div class="about-image col-md-6" data-animation="fadeIn">
-                <img src="img/kennel_img.jpg" alt="Description Image">
+                <img src="img/kennel_img.jpg" alt="Щенки породы бульмастиф">
             </div>
 
             <!-- DESCRIPTION TEXT -->
@@ -396,13 +358,13 @@
 
 </section>
 
-    <section id="numbers" class="numbers-section section-dark section">
+    <section id="photos" class="numbers-section section-dark section">
 
         <div class="section-background">
 
             <!-- IMAGE BACKGROUND -->
             <div class="section-background-image parallax" data-stellar-ratio="0.4">
-                <img src="img/trophy.png" style="opacity: 0.2;">
+                <img src="img/trophy.png" alt="Продаются щенки шоу класса" style="opacity: 0.2;">
             </div>
 
         </div>
@@ -509,7 +471,7 @@
             <!-- HOW IT WORKS - ITEM 1 -->
             <div class="col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="hiw-item">
-                    <img class="hiw-item-picture" src="img/step1.jpg" alt="">
+                    <img class="hiw-item-picture" src="img/step1.jpg" alt="Купить щенка бульмастиф">
                     <div class="hiw-item-text">
                         <span class="hiw-item-icon">1</span>
                         <h4 class="hiw-item-title">Приезжайте в питомник</h4>
@@ -521,7 +483,7 @@
             <!-- HOW IT WORKS - ITEM 2 -->
             <div class="col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="hiw-item even">
-                    <img class="hiw-item-picture" src="img/step2.jpg" alt="">
+                    <img class="hiw-item-picture" src="img/step2.jpg" alt="Щенки породы бульмастифа всех цветов">
                     <div class="hiw-item-text">
                         <span class="hiw-item-icon">2</span>
                         <h4 class="hiw-item-title">Выбирайте щенка</h4>
@@ -535,7 +497,7 @@
             <!-- HOW IT WORKS - ITEM 3 -->
             <div class="col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="hiw-item">
-                    <img class="hiw-item-picture" src="img/step3.jpg" alt="">
+                    <img class="hiw-item-picture" src="img/step3.jpg" alt="Добрые щенки породы бульмастиф">
                     <div class="hiw-item-text">
                         <span class="hiw-item-icon">3</span>
                         <h4 class="hiw-item-title">Принимайте решение</h4>
@@ -547,7 +509,7 @@
             <!-- HOW IT WORKS - ITEM 4 -->
             <div class="col-md-3 col-sm-6" data-animation="fadeIn">
                 <div class="hiw-item even">
-                    <img class="hiw-item-picture" src="img/step4.jpg" alt="">
+                    <img class="hiw-item-picture" src="img/step4.jpg" alt="Продаются щенки бульмастифа">
                     <div class="hiw-item-text">
                         <span class="hiw-item-icon">4</span>
                         <h4 class="hiw-item-title">Будьте счастливы!</h4>
@@ -570,7 +532,7 @@
 
         <!-- IMAGE BACKGROUND -->
         <div class="section-background-image parallax" data-stellar-ratio="0.4">
-            <img src="img/trophy.png" style="opacity: 0.2;">
+            <img src="img/trophy.png" alt="Порода бульмастифа" style="opacity: 0.2;">
         </div>
 
     </div>
@@ -645,7 +607,7 @@
 
         <!-- TWO COLS DESCRIPTION IMAGE -->
         <div class="two-cols-description-image" data-animation="fadeInRight">
-            <img src="img/balu.jpg" alt="">
+            <img src="img/balu.jpg" alt="Питомник бульмастифов">
         </div>
 
     </div>
@@ -656,7 +618,7 @@
 
     <div class="section-background">
         <div class="section-background-image parallax" data-stellar-ratio="0.4">
-            <img src="img/girl.jpg" style="opacity: 0.15; width: 1884px; height: 1256.3925px; margin-top: -143.19625px; margin-left: 0px;">
+            <img src="img/girl.jpg" alt="Бульмастиф цена" style="opacity: 0.15; width: 1884px; height: 1256.3925px; margin-top: -143.19625px; margin-left: 0px;">
         </div>
     </div>
     <div class="container">
@@ -777,69 +739,13 @@
 
 </section>
 
-<!-- TESTIMONIALS
-================================= -->
-<!--<section id="testimonial" class="testimonial-section section-gray section">-->
-<!---->
-<!--    <div class="container">-->
-<!---->
-<!--        <h2 class="section-heading text-center">Trusted by Thousands</h2>-->
-<!---->
-<!--        <div class="sponsors-row" data-animation="bounceIn">-->
-<!--            <img src="http://design.davidrozando.com/drew-html-v1.1/images/contents/sponsor-1.png" alt="">-->
-<!--            <img src="http://design.davidrozando.com/drew-html-v1.1/images/contents/sponsor-2.png" alt="">-->
-<!--            <img src="http://design.davidrozando.com/drew-html-v1.1/images/contents/sponsor-3.png" alt="">-->
-<!--            <img src="http://design.davidrozando.com/drew-html-v1.1/images/contents/sponsor-4.png" alt="">-->
-<!--        </div>-->
-<!---->
-<!--        <div class="testimonial-row row">-->
-<!---->
-<!--            <!-- TESTIMONIAL ITEM 1 -->
-<!--            <div class="col-sm-6">-->
-<!--                <div class="testimonial">-->
-<!--                    <blockquote class="testimonial-quote">-->
-<!--                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lectus dui, volutpat sed velit congue, pulvinar tristique nisi. Maecenas mollis rutrum bibendum. Etiam mollis diam risus, at varius ex dapibus sed. In in leo at sapien placerat sagittis.</p>-->
-<!--                    </blockquote>-->
-<!--								<span class="testimonial-ratings">-->
-<!--									<span class="fa fa-star"></span>-->
-<!--									<span class="fa fa-star"></span>-->
-<!--									<span class="fa fa-star"></span>-->
-<!--									<span class="fa fa-star"></span>-->
-<!--									<span class="fa fa-star"></span>-->
-<!--								</span>-->
-<!--                    <cite class="testimonial-cite">John Doe, Company Inc.</cite>-->
-<!--                </div>-->
-<!--            </div>-->
-<!---->
-<!--            <!-- TESTIMONIAL ITEM 2 -->
-<!--            <div class="col-sm-6">-->
-<!--                <div class="testimonial">-->
-<!--                    <blockquote class="testimonial-quote">-->
-<!--                        <p>Nulla lectus dui, volutpat sed velit congue, pulvinar tristique nisi. Maecenas mollis rutrum bibendum. Etiam mollis diam risus, at varius ex dapibus sed. In in leo at sapien placerat sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
-<!--                    </blockquote>-->
-<!--								<span class="testimonial-ratings">-->
-<!--									<span class="fa fa-star"></span>-->
-<!--									<span class="fa fa-star"></span>-->
-<!--									<span class="fa fa-star"></span>-->
-<!--									<span class="fa fa-star"></span>-->
-<!--									<span class="fa fa-star-half-o"></span>-->
-<!--								</span>-->
-<!--                    <cite class="testimonial-cite">Dohn Joe, Internet Marketer</cite>-->
-<!--                </div>-->
-<!--            </div>-->
-<!---->
-<!--        </div>-->
-<!---->
-<!--    </div>-->
-<!---->
-<!--</section>-->
 <section id="closing" class="closing-section section-dark section">
 
     <div class="section-background">
 
         <!-- IMAGE BACKGROUND -->
         <div class="section-background-image parallax" data-stellar-ratio="0.4">
-            <img src="img/road.jpg" alt="" style="opacity: 0.15;">
+            <img src="img/road.jpg" alt="Собака бульмастиф" style="opacity: 0.15;">
         </div>
 
     </div>
@@ -875,8 +781,8 @@
             <div class="maps-text-inner">
 
                 <h2 class="section-heading text-left">География <span class="fa fa-home text-primary"></span> питомника </h2>
-                <p><img src="img/paw2.png" alt=""/> - представители питомника</p>
-                <p><img src="img/paw_main.png" alt="" width="40px"/> - питомник Графство Багиры</p>
+                <p><img src="img/paw2.png" alt="Порода бульмастиф"/> - представители питомника</p>
+                <p><img src="img/paw_main.png" alt="Бульмастиф питомник" width="40px"/> - питомник Графство Багиры</p>
 
                 <br>
                 <div class="row">
@@ -907,7 +813,7 @@
 
         <!-- IMAGE BACKGROUND -->
         <div class="section-background-image parallax" data-stellar-ratio="0.4">
-            <img src="img/mail_back.jpg" alt="" style="opacity: 0.15;">
+            <img src="img/mail_back.jpg" alt="Купить щенка бульмастифа" style="opacity: 0.15;">
         </div>
 
     </div>
@@ -953,10 +859,6 @@
 
     <div class="container">
 
-<!--        <h3 class="footer-logo">-->
-<!--            <img src="http://design.davidrozando.com/drew-html-v1.1/images/logos/footer-logo.png" srcset="images/logos/footer-logo@2x.png 2x" alt="Drew">-->
-<!--        </h3>-->
-
         <div class="footer-socmed">
             <a href="https://www.facebook.com/GrafstvoBagiry" target="_blank"><span class="fa fa-facebook"></span></a>
             <a href="https://vk.com/grafstvobagiry" target="_blank"><span class="fa fa-vk"></span></a>
@@ -990,7 +892,7 @@
 <script src="js/jQuery-Mask-Plugin/src/jquery.mask.js"></script>
 <script type="text/javascript" src="js/instafeed.min.js"></script>
 <script src="js/script.js?<?=uniqid();?>"></script>
-<script src="js/request.min.js"></script>
+<script src="js/request.js"></script>
 <script src="js/map_scroller.js?<?=uniqid();?>"></script>
 
 <script type="text/javascript">
